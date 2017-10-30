@@ -629,3 +629,4 @@ PLUGIN_ADMIN:
   PERMISSIONS: "Permissions"
   NEVER_CACHE_TWIG: "Ne jamais mettre en cache Twig"
   ALLOW_WEBSERVER_GZIP: "Autorisé Gzip WebServer"
+  TOOLS: Outils
