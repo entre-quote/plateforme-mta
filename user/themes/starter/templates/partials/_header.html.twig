@@ -1,8 +1,7 @@
 {% block header %}
-<div class="header">
-  <div class="wrapper padding">
+<header class="header">
+  <div class="container">
     <a class="logo left" href="{{ base_url == '' ? '/' : base_url }}">
-      <i class="fa fa-rebel"></i>
       {{ config.site.title }}
     </a> {% block header_navigation %}
     <nav class="main-nav">
@@ -10,5 +9,5 @@
     </nav>
     {% endblock %}
   </div>
-</div>
+</header>
 {% endblock %}

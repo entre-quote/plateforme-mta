@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/*
+Comment everything not useful for the current project
+*/
+
+/* --- Vendors --- */
+@import "vendors/grillade";
+
+/* --- Base --- */
+@import "base/variables";
+@import "base/basics";
+@import "base/fonts";
+
+/* --- Layout --- */
+@import "layout/container";
+@import "layout/header";
+@import "layout/footer";
+
+/* --- Components --- */
+@import "components/nav";
+@import "components/headings";
+@import "components/lists";
+@import "components/links";
+
+/* --- Pages --- */
+// @import "pages/blog-list";
+
+/* --- Vendors --- */
+/*@import "vendors/"*/

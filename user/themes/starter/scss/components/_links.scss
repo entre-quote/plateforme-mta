@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+a {
+  color: $main-color;
+  text-decoration: none;
+
+  &:hover {
+      text-decoration: underline;
+  }
+}

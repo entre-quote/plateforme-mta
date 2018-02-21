@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+footer {
+    background-color: $main-color;
+}
+
+.footer-content {
+    padding: 10rem 0;
+
+    a {
+        display: flex;
+        align-items: center;
+        color: #fff;
+
+        &:before {
+            content: '';
+            display: block;
+            width: 1.6rem;
+            height: 1px;
+            margin-right: 8px;
+            background-color: #fff;
+        }
+    }
+}
+
+.bottom-bar {
+    padding: 3.5rem 0;
+    text-align: center;
+    background-color: #fff;
+
+    a {
+        &:not(:first-child):before {
+            content: '|';
+            margin-right: 1rem;
+            margin-left: 1rem;
+            color: $main-color;
+        }
+    }
+}

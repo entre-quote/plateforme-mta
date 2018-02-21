@@ -14,9 +14,7 @@
     <link rel="canonical" href="{{ page.url(true, true) }}" />
 
     {% block stylesheets %}
-        {% do assets.addCss('https://unpkg.com/purecss@1.0.0/build/pure-min.css', 100) %}
-        {% do assets.addCss('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', 99) %}
-        {% do assets.addCss('theme://css/custom.css', 98) %}
+        {% do assets.addCss('theme://css/styles.css', 98) %}
     {% endblock %}
     {{ assets.css() }}
 
@@ -33,7 +31,7 @@
 
 {% block body %}
     <section id="body">
-        <div class="wrapper padding">
+        <div class="container padding">
         {% block content %}{% endblock %}
         </div>
     </section>
