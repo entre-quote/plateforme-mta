@@ -1,13 +1,19 @@
 {% block header %}
 <header class="header">
+
   <div class="container">
     <a class="logo left" href="{{ base_url == '' ? '/' : base_url }}">
       {{ config.site.title }}
-    </a> {% block header_navigation %}
-    <nav class="main-nav">
-      {% include 'partials/_navigation.html.twig' %}
-    </nav>
+    </a>
+
+    {% block header_navigation %}
+        <nav class="main-nav">
+          {% include 'partials/_navigation.html.twig' %}
+        </nav>
     {% endblock %}
+
+    {{page.content}}
   </div>
+
 </header>
 {% endblock %}

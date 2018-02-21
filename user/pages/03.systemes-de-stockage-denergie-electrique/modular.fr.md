@@ -8,7 +8,7 @@ content:
         dir: asc
 ---
 
-<h2>
-SSE 
-<span>SSE</span>
-</h2>
+<h1>
+SSE
+<span>Systèmes de stockage d’énergie électrique </span>
+</h1>

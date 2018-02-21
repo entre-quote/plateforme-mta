@@ -3,23 +3,23 @@
 {% set show_onpage_menu = header.onpage_menu == true or header.onpage_menu is null %}
 {% macro pageLinkName(text) %}{{ text|lower|replace({' ':'_'}) }}{% endmacro %}
 
+
+
 {% block content %}
 
-    {{ page.content }}
-
     <nav class="page-nav">
-        {{page.title}}
+        <h3>{{page.title}}</h3>
         {% for module in page.collection() %}
             {% set current_module = (module.active or module.activeChild) ? 'active' : '' %}
-            <li class="{{ current_module }}"><a href="#{{ _self.pageLinkName(module.menu) | hyphenize}}">{{ module.menu }}</a></li>
+            <a href="#{{ _self.pageLinkName(module.menu) | hyphenize}}" class="{{ current_module }}">{{ module.menu }}</a>
         {% endfor %}
     </nav>
 
     {% for module in page.collection() %}
         <section class="page-section" id="{{ _self.pageLinkName(module.title) | hyphenize}}">
-            <p>{{page.title}}/0{{module.currentPosition + 1}}.</p>
+            <p class="section-position">{{page.title}}/0{{module.currentPosition + 1}}.</p>
 
-            <h3>{{module.title}}</h3>
+            <h2>{{module.title}}</h2>
 
             {{ module.content }}
         </section>

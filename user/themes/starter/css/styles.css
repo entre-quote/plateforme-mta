@@ -6,6 +6,7 @@ Comment everything not useful for the current project
 /* ==Grillade : Simple Grid System    */
 /* ---------------------------------- */
 /* Doc : http://grillade.knacss.com */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,300i,400,500,700|Roboto");
 @media (min-width: 576px) {
   [class*=" grid-"],
   [class^="grid-"] {
@@ -477,12 +478,8 @@ Comment everything not useful for the current project
 /* --- Body --- */
 body {
   margin: 0;
-  color: #443e3e;
+  color: #2F2929;
   background-color: #fff; }
-
-.img-center {
-  display: block;
-  margin: 0 auto; }
 
 /*Font-face declaration example*/
 html {
@@ -492,22 +489,28 @@ html {
   /* fix */ }
 
 body {
-  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-  font-size: 1.4rem;
-  line-height: 1.4; }
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2; }
+
+.img-center {
+  display: block;
+  margin: 0 auto; }
 
 /* --- Layout --- */
 .container {
   margin: 0 auto;
-  width: 1210px; }
+  width: 1112px; }
 
-@media (max-width: 1210px) {
+@media (max-width: 1112px) {
   .container {
     padding: 0 20px;
     width: 100%; } }
 header {
   padding: 6rem 0;
-  background-color: #f9f9f9; }
+  background-color: #f9f9f9;
+  border-top: 4px solid #000066; }
 
 footer {
   background-color: #000066; }
@@ -538,11 +541,47 @@ footer {
 
 /* --- Components --- */
 /* --- Nav --- */
+.page-nav {
+  padding: 3.2rem;
+  font-size: 1.8rem;
+  font-weight: 300;
+  background-color: #000066; }
+  .page-nav,
+  .page-nav a {
+    color: #fff; }
+  .page-nav a {
+    display: block;
+    line-height: 3.1; }
+    .page-nav a:first-of-type {
+      padding-top: 1.6rem; }
+
+h1,
+h2 {
+  color: #000066; }
+
+h1,
+h3 {
+  font-weight: 700; }
+
 h1 {
-  font-size: 1.8rem; }
+  margin: 0;
+  font-size: 4.4rem;
+  line-height: 1.32; }
+  h1 span {
+    display: block;
+    font-size: 4rem;
+    font-weight: 300; }
 
 h2 {
-  font-size: 1.6rem; }
+  margin: 0 0 3.2rem;
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 1.4; }
+
+h3 {
+  margin: 0 0 3.2rem;
+  font-size: 2rem;
+  line-height: 1.6; }
 
 ol,
 ul {
@@ -567,6 +606,10 @@ a {
 
 .page-section {
   padding: 13rem 0; }
+
+.section-position {
+  margin: 0;
+  color: #CCCCCC; }
 
 /* --- Pages --- */
 /* --- Vendors --- */
