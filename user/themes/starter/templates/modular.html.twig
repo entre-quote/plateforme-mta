@@ -11,12 +11,12 @@
         {{page.title}}
         {% for module in page.collection() %}
             {% set current_module = (module.active or module.activeChild) ? 'active' : '' %}
-            <li class="{{ current_module }}"><a href="#{{ _self.pageLinkName(module.menu) }}">{{ module.menu }}</a></li>
+            <li class="{{ current_module }}"><a href="#{{ _self.pageLinkName(module.menu) | hyphenize}}">{{ module.menu }}</a></li>
         {% endfor %}
     </nav>
 
     {% for module in page.collection() %}
-        <section class="page-section" id="{{ _self.pageLinkName(module.title) }}">
+        <section class="page-section" id="{{ _self.pageLinkName(module.title) | hyphenize}}">
             <p>{{page.title}}/0{{module.currentPosition + 1}}.</p>
 
             <h3>{{module.title}}</h3>
