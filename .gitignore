@@ -1,5 +1,7 @@
-/user/themes/starter/.sass-cache/
-.DS_Store
-logs/**
+.sass-cache
+composer.lock
 cache/*
-!cache/.gitkeep
+assets/*
+logs/*
+images/*
+user/data/*
