@@ -1,0 +1,5 @@
+/user/themes/starter/.sass-cache/
+.DS_Store
+logs/**
+cache/*
+!cache/.gitkeep
