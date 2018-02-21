@@ -3,8 +3,9 @@ title: 'Plan du site'
 process:
     markdown: true
     twig: true
+visible: false
 content:
-    items: '@root.children'
+    items: '@root.descendents'
     order:
         by: default
         dir: asc
@@ -22,7 +23,7 @@ content:
     {% if p.children.count > 0 %}
         <ul>
             {% for sp in p.children %}
-                <li><a href="{{p.url}}/#{{ sp.menu | hyphenize }}">{{ sp.title }}</a></li>
+                <li><a href="{{ sp.url }}">{{ sp.title }}</a></li>
             {% endfor %}
         </ul>
     {% endif %}
