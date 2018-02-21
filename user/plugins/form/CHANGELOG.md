@@ -1,42 +1,5 @@
-# v2.11.5
-## 02/16/2018
-
-1. [](#new)
-    * Added support for `form: process: - call: ['Class', 'method']` for custom form handling
-1. [](#bugfix)
-    * Fixed regression in v2.11.4: Call to a member function post() on null [grav#1720](https://github.com/getgrav/grav/issues/1720)
-
-# v2.11.4
-## 02/15/2018
-
-1. [](#improved)
-    * Stopped Chrome from auto-completing admin user profile form [grav#1847](https://github.com/getgrav/grav/issues/1847)
-    * Start using composer to autoload classes
-    * Added support for `switch` to be treated as checkbox
-1. [](#bugfix)
-    * Fixed missing form submit in dynamically created pages
-    
-# v2.11.3
-## 01/31/2018
-
-1. [](#new)
-    * Added support for `file` in **Display** field. Allows the ability to read a file and output it, works in combination with `|markdown` filter
-    * Added `minlength` and `maxlength` to **Textarea** field [#231](https://github.com/getgrav/grav-plugin-form/pull/231)
-
-# v2.11.2
-## 01/22/2018
-
-1. [](#new)
-    * Added support for markdown in all form fields for `label`, `help`, and `description` when `markdown: true` is set on field
-
-# v2.11.1
-## 12/18/2017
-
-1. [](#improved)
-    * Updated default fields to make them more consistent with class names
-
 # v2.11.0
-## 12/05/2017
+## mm/dd/2017
 
 1. [](#new)
     * Added ability to set `novalidate: true` on form definition to turn off all HTML5 form validation
