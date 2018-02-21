@@ -565,6 +565,9 @@ a {
   a:hover {
     text-decoration: underline; }
 
+.page-section {
+  padding: 13rem 0; }
+
 /* --- Pages --- */
 /* --- Vendors --- */
 /*@import "vendors/"*/
