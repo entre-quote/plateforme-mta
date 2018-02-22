@@ -679,9 +679,7 @@ a {
 
 /* --- Pages --- */
 .page {
-  position: relative;
-  background-color: #fff;
-  z-index: 2; }
+  position: relative; }
 
 /* --- Vendors --- */
 /*@import "vendors/"*/
