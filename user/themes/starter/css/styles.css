@@ -652,13 +652,25 @@ a {
   color: #CCCCCC; }
 .page-article hr {
   width: 100vw;
+  height: 8px;
+  background-color: #F0F0F0;
   position: absolute;
   right: 50%;
   left: 50%;
   margin-top: 0;
   margin-right: -50vw;
   margin-left: -50vw;
+  border: none;
   z-index: 1; }
+  .page-article hr + hr {
+    background-color: #fff;
+    max-width: 1112px;
+    margin: 0 auto;
+    right: 0;
+    left: 0; }
+    @media (max-width: 1112px) {
+      .page-article hr + hr {
+        width: 100%; } }
 .page-article:last-of-type hr {
   display: none; }
 
