@@ -3,8 +3,6 @@ title: 'Le matériel'
 image_align: left
 ---
 
-![](https://place.cat/c/300/200)
-
 Le matériel proposé pour les essais SSE est le suivant :
 
 Les bancs d’essais, qui permettent de charger et décharger les SSE :

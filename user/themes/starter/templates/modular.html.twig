@@ -3,27 +3,33 @@
 {% set show_onpage_menu = header.onpage_menu == true or header.onpage_menu is null %}
 {% macro pageLinkName(text) %}{{ text|lower|replace({' ':'_'}) }}{% endmacro %}
 
-
-
 {% block content %}
+    <div class="page grid has-gutter">
 
-    <nav class="page-nav">
-        <h3>{{page.title}}</h3>
-        {% for module in page.collection() %}
-            {% set current_module = (module.active or module.activeChild) ? 'active' : '' %}
-            <a href="#{{ _self.pageLinkName(module.menu) | hyphenize}}" class="{{ current_module }}">{{ module.menu }}</a>
-        {% endfor %}
-    </nav>
+        <nav class="page-nav five-twelves">
+            <h3>{{page.title}}</h3>
 
-    {% for module in page.collection() %}
-        <section class="page-section" id="{{ _self.pageLinkName(module.title) | hyphenize}}">
-            <p class="section-position">{{page.title}}/0{{module.currentPosition + 1}}.</p>
+            {% for module in page.collection() %}
+                {% set current_module = (module.active or module.activeChild) ? 'active' : '' %}
 
-            <h2>{{module.title}}</h2>
+                <a href="#{{ _self.pageLinkName(module.menu) | hyphenize}}" class="{{ current_module }}">{{ module.menu }}</a>
+            {% endfor %}
+        </nav>
 
-            {{ module.content }}
+        <section class="seven-twelves push">
+            {% for module in page.collection() %}
+                <article class="page-article" id="{{ _self.pageLinkName(module.title) | hyphenize}}">
+                    <div class="article-content">
+                        <p class="section-position">{{page.title}}/0{{module.currentPosition + 1}}.</p>
+
+                        <h2>{{module.title}}</h2>
+
+                        {{ module.content }}
+                    </div>
+                    
+                    <hr>
+                </article>
+            {% endfor %}
         </section>
-
-    {% endfor %}
-
+    </div>
 {% endblock %}

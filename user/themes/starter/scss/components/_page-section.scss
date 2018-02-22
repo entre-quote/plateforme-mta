@@ -1,10 +1,42 @@
 @charset "UTF-8";
 
-.page-section {
-    padding: 13rem 0;
+.page-article {
+
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    p {
+        margin: 0;
+
+        &:not(:last-of-type) {
+            margin-bottom: 3.2rem;
+        }
+    }
+
+    & > .section-position {
+        color: $alt-color;
+    }
+
+    hr {
+        width: 100vw;
+        position: absolute;
+        right: 50%;
+        left: 50%;
+        margin-top: 0;
+        margin-right: -50vw;
+        margin-left: -50vw;
+        z-index: 1;
+    }
+
+    &:last-of-type {
+        hr {
+            display: none;
+        }
+    }
 }
 
-.section-position {
-    margin: 0;
-    color: $alt-color;
+.article-content {
+    padding: 13rem 0;
 }

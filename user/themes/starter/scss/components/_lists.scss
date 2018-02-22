@@ -9,14 +9,22 @@ ul {
 //Unordered lists
 ul {
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 3.2rem;
+  list-style-type: none;
 
   ul {
     margin-left: 20px;
   }
 }
 
+.list-title + ul {
+    margin-top: 0;
+}
+
 li {
-    margin-bottom: 1rem;
-    margin-left: 1.6rem;
+
+    &:before {
+        content: "\00b7";
+        margin-right: 3rem;
+    }
 }
