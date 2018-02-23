@@ -5,24 +5,7 @@
 }
 
 .page-article {
-
-    img {
-        display: block;
-        margin: 0 auto;
-    }
-
-    p {
-        margin: 0;
-
-        &:not(.section-position),
-        &:not(:last-of-type) {
-            margin-bottom: 3.2rem;
-        }
-    }
-
-    .section-position {
-        color: $alt-color;
-    }
+    padding-left: calc(100% / 12 - 1rem - 0.01px);
 
     hr {
         width: 100vw;
@@ -51,10 +34,34 @@
     }
 
     &:last-of-type {
+
         hr {
             display: none;
         }
     }
+}
+
+.article-content {
+
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    p {
+        margin: 0;
+
+        &:not(.section-position),
+        &:not(:last-child) {
+            margin-bottom: 3.2rem;
+        }
+    }
+
+    .section-position {
+        color: $alt-color;
+    }
+
+
 }
 
 .article-content {
