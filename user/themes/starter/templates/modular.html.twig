@@ -4,36 +4,38 @@
 {% macro pageLinkName(text) %}{{ text|lower|replace({' ':'_'}) }}{% endmacro %}
 
 {% block content %}
-    <div class="page has-gutter">
-        <aside  id="page-nav-wrapper" class="">
-            <nav class="page-nav five-twelves">
-                <h3>{{page.title}}</h3>
+<div class="page grid has-gutter">
+    <aside  id="page-nav-wrapper" class=" four-twelves">
+        <nav class="page-nav">
 
-                {% for module in page.collection() %}
-                    {% set current_module = (module.active or module.activeChild) ? 'active' : '' %}
+            <h3>{{page.title}}</h3>
 
-                    <a href="#{{ _self.pageLinkName(module.menu) | hyphenize}}" class="{{ current_module }}">{{ module.menu }}</a>
-                {% endfor %}
-            </nav>
-        </aside>
-
-        <section class="page-section seven-twelves push">
             {% for module in page.collection() %}
-                <article class="page-article" id="{{ _self.pageLinkName(module.title) | hyphenize}}">
-                    <div class="article-content">
-                        <p class="section-position">{{page.title}}/0{{module.currentPosition + 1}}.</p>
+            {% set current_module = (module.active or module.activeChild) ? 'active' : '' %}
 
-                        <h2>{{module.title}}</h2>
-
-                        {{ module.content }}
-                    </div>
-
-                    <hr>
-                    <hr>
-                </article>
+            <a href="#{{ _self.pageLinkName(module.menu) | hyphenize}}" class="{{ current_module }}">{{ module.menu }}</a>
             {% endfor %}
-        </section>
-    </div>
+
+        </nav>
+    </aside>
+
+    <section class="page-section seven-twelves push">
+        {% for module in page.collection() %}
+        <article class="page-article" id="{{ _self.pageLinkName(module.title) | hyphenize}}">
+            <div class="article-content">
+                <p class="section-position">{{page.title}}/0{{module.currentPosition + 1}}.</p>
+
+                <h2>{{module.title}}</h2>
+
+                {{ module.content }}
+            </div>
+
+            <hr>
+            <hr>
+        </article>
+        {% endfor %}
+    </section>
+</div>
 {% endblock %}
 
 {% do assets.addJs('theme://js/stickybits.min.js', {'group': 'bottom'}) %}

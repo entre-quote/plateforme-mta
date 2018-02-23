@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .page-section {
-    padding-top: 13rem;
+
 }
 
 .page-article {
@@ -14,12 +14,13 @@
     p {
         margin: 0;
 
+        &:not(.section-position),
         &:not(:last-of-type) {
             margin-bottom: 3.2rem;
         }
     }
 
-    & > .section-position {
+    .section-position {
         color: $alt-color;
     }
 

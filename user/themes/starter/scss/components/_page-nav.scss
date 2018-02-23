@@ -3,17 +3,20 @@
 #page-nav-wrapper {
     margin-top: -13rem;
     z-index: 2;
+
+    nav {
+        margin-left: -3.2rem;
+        padding: 3.2rem;
+        font-size: 1.8rem;
+        font-weight: 300;
+        background-color: $main-color;
+        box-shadow: 0 4px 32px 0 rgba(0, 0, 102, 0.48);
+    }
 }
 
 .page-nav {
-    position: absolute;
-    top: 0;
-    left: -3.2rem;
-    padding: 3.2rem;
-    font-size: 1.8rem;
-    font-weight: 300;
-    background-color: $main-color;
-    box-shadow: 0 4px 32px 0 rgba(0, 0, 102, 0.48);
+    // position: absolute;
+
 
     &,
     a {

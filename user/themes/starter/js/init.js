@@ -1,1 +1,1 @@
-stickybits('#page-nav-wrapper');
+stickybits('.page-nav');
