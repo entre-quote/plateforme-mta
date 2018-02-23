@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+#page-nav-wrapper {
+    margin-top: -13rem;
+    z-index: 2;
+}
+
+.page-nav {
+    position: absolute;
+    top: 0;
+    left: -3.2rem;
+    padding: 3.2rem;
+    font-size: 1.8rem;
+    font-weight: 300;
+    background-color: $main-color;
+    box-shadow: 0 4px 32px 0 rgba(0, 0, 102, 0.48);
+
+    &,
+    a {
+        color: #fff;
+    }
+
+    h3 {
+        position: relative;
+        margin-bottom: 0;
+        padding-bottom: 3.2rem;
+
+        &:before,
+        &:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            display: block;
+            height: 1px;
+            background-color: #fff;
+        }
+
+        &:before {
+            left: -3.2rem;
+            width: calc(100% / 4);
+        }
+
+        &:after {
+            left: calc((100% / 4) - 2.4rem);
+            width: 8px;
+        }
+    }
+
+    a {
+        display: block;
+        line-height: 3.1;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+
+        &:first-of-type {
+            padding-top: 1.6rem;
+        }
+    }
+}

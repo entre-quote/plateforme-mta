@@ -571,26 +571,6 @@ footer {
 
 /* --- Components --- */
 /* --- Nav --- */
-.page-nav {
-  position: absolute;
-  top: -13rem;
-  left: -3.2rem;
-  padding: 3.2rem;
-  font-size: 1.8rem;
-  font-weight: 300;
-  background-color: #000066; }
-  .page-nav,
-  .page-nav a {
-    color: #fff; }
-  .page-nav a {
-    display: block;
-    line-height: 3.1;
-    text-decoration: none; }
-    .page-nav a:hover {
-      text-decoration: underline; }
-    .page-nav a:first-of-type {
-      padding-top: 1.6rem; }
-
 h1,
 h2 {
   color: #000066; }
@@ -641,6 +621,9 @@ li:before {
 a {
   color: #2F2929; }
 
+.page-section {
+  padding-top: 13rem; }
+
 .page-article img {
   display: block;
   margin: 0 auto; }
@@ -676,6 +659,48 @@ a {
 
 .article-content {
   padding: 13rem 0; }
+
+#page-nav-wrapper {
+  margin-top: -13rem;
+  z-index: 2; }
+
+.page-nav {
+  position: absolute;
+  top: 0;
+  left: -3.2rem;
+  padding: 3.2rem;
+  font-size: 1.8rem;
+  font-weight: 300;
+  background-color: #000066;
+  box-shadow: 0 4px 32px 0 rgba(0, 0, 102, 0.48); }
+  .page-nav,
+  .page-nav a {
+    color: #fff; }
+  .page-nav h3 {
+    position: relative;
+    margin-bottom: 0;
+    padding-bottom: 3.2rem; }
+    .page-nav h3:before, .page-nav h3:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      display: block;
+      height: 1px;
+      background-color: #fff; }
+    .page-nav h3:before {
+      left: -3.2rem;
+      width: calc(100% / 4); }
+    .page-nav h3:after {
+      left: calc((100% / 4) - 2.4rem);
+      width: 8px; }
+  .page-nav a {
+    display: block;
+    line-height: 3.1;
+    text-decoration: none; }
+    .page-nav a:hover {
+      text-decoration: underline; }
+    .page-nav a:first-of-type {
+      padding-top: 1.6rem; }
 
 /* --- Pages --- */
 .page {

@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+.page-section {
+    padding-top: 13rem;
+}
+
 .page-article {
 
     img {
@@ -38,13 +42,11 @@
             margin: 0 auto;
             right: 0;
             left: 0;
-            
+
             @media (max-width: $desktop-width) {
                 width: 100%;
             }
         }
-
-
     }
 
     &:last-of-type {
