@@ -7,15 +7,13 @@
 <div class="page grid has-gutter">
     <aside  id="page-nav-wrapper" class=" four-twelves">
         <nav class="page-nav">
-
             <h3>{{page.title}}</h3>
 
             {% for module in page.collection() %}
             {% set current_module = (module.active or module.activeChild) ? 'active' : '' %}
 
-            <a href="#{{ _self.pageLinkName(module.menu) | hyphenize}}" class="{{ current_module }}">{{ module.menu }}</a>
+            <a data-scroll href="#{{ _self.pageLinkName(module.menu) | hyphenize}}" class="{{ current_module }}">{{ module.menu }}</a>
             {% endfor %}
-
         </nav>
     </aside>
 
@@ -30,8 +28,7 @@
                 {{ module.content }}
             </div>
 
-            <hr>
-            <hr>
+            <hr><hr>
         </article>
         {% endfor %}
     </section>
@@ -39,4 +36,5 @@
 {% endblock %}
 
 {% do assets.addJs('theme://js/stickybits.min.js', {'group': 'bottom'}) %}
+{% do assets.addJs('theme://js/smooth-scroll.polyfills.min.js', {'group': 'bottom'}) %}
 {% do assets.addJs('theme://js/init.js', {'group': 'bottom'}) %}
