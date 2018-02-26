@@ -3,7 +3,7 @@
 
   <div class="container">
     <a class="logo left" href="{{ base_url == '' ? '/' : base_url }}">
-      {{ config.site.title }}
+      <img src="{{ url('theme://images/logo-mta.svg') }}" alt="Plateforme MTA">
     </a>
 
     {% block header_navigation %}
