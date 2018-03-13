@@ -1,14 +1,14 @@
 ---
 title: SSE
-menu: 'Systèmes de stockage d’énergie électrique (SSE)'
 content:
     items: '@self.modular'
     order:
         by: default
         dir: asc
+menu: 'Systèmes de stockage d’énergie électrique (SSE)'
 ---
 
 <h1>
 SSE
-<span>Systèmes de stockage d’énergie électrique </span>
+<span>Systèmes de stockage <br>d’énergie électrique </span>
 </h1>

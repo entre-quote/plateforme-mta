@@ -1,19 +1,25 @@
 {% block header %}
 <header class="header">
 
-  <div class="container">
-    <a class="logo left" href="{{ base_url == '' ? '/' : base_url }}">
-      <img src="{{ url('theme://images/logo-mta.svg') }}" alt="Plateforme MTA">
-    </a>
+    <div class="container">
 
-    {% block header_navigation %}
-        <nav class="main-nav">
-          {% include 'partials/_navigation.html.twig' %}
+        <div class="top-bar">
+            {% include 'partials/_logo.html.twig' %}
+
+            <button id="open-nav"><span>Navigation</span></button>
+        </div>
+
+        {% block header_navigation %}
+        {% include 'partials/_navigation.html.twig' %}
+        {% endblock %}
+
+        <nav class="lang-nav">
+            <a href="#">Français</a>
+            <a href="#">English</a>
         </nav>
-    {% endblock %}
 
-    {{page.content}}
-  </div>
+        {{page.content}}
+    </div>
 
 </header>
 {% endblock %}
