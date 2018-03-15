@@ -1,21 +1,29 @@
 {% block footer %}
 <footer class="footer">
+
     <section class="footer-content container">
-            <nav class="grid-3">
-                <div>
-                    <a href="#">Accueil</a>
-                    <a href="#">Prestations et démarche</a>
-                    <a href="#">SSE</a>
-                </div>
-                <div>
-                    <a href="#">Société</a>
-                    <a href="#">Sécurité</a>
-                    <a href="#">Contact</a>
-                </div>
-                <div>
-                    <a href="#">Linkedin</a>
-                </div>
-            </nav>
+        <a class="logo no-before" href="{{ base_url == '' ? '/' : base_url }}">
+            <img src="{{ url('theme://images/logo-mta-white.svg') }}" alt="Plateforme MTA">
+        </a>
+
+        <nav class="grid-3-small-1">
+            <div>
+                <a href="#">Accueil</a>
+                <a href="#">Prestations et démarche</a>
+                <a href="#">SSE</a>
+            </div>
+
+            <div>
+                <a href="#">Société</a>
+                <a href="#">Sécurité</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <div class="linkedin">
+                <a href="#" class="no-before"><img src="{{ url('theme://images/logo-linkedin.svg') }}" alt="Linkedin"></a>
+            </div>
+        </nav>
+
     </section>
 
     <section class="bottom-bar">

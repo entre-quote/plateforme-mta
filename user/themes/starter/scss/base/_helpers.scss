@@ -4,3 +4,15 @@
     display: block;
     margin: 0 auto;
 }
+
+.no-before {
+
+    &:before {
+        display: none !important;
+        margin: 0 !important;
+    }
+}
+
+.align-bottom {
+    align-self: flex-end;
+}

@@ -2,10 +2,28 @@
 
 footer {
     background-color: $main-color;
+
+    a {
+        text-decoration: none;
+    }
 }
 
 .footer-content {
-    padding: 10rem 0;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+
+    .logo {
+        margin-bottom: 3.2rem;
+
+        img {
+            width: 32rem;
+            height: auto;
+        }
+    }
+
+    .linkedin {
+        align-self: flex-end;
+    }
 
     a {
         display: flex;
@@ -21,19 +39,58 @@ footer {
             background-color: #fff;
         }
     }
+
+    @media (max-width: $tablet-bp) {
+        padding: 6.4rem;
+        font-size: 2rem;
+
+        .logo {
+            margin-bottom: 2.3rem;
+        }
+
+        .linkedin {
+            margin-top: 2.5rem;
+        }
+    }
+
+    @media (max-width: $mobile-bp) {
+        padding: 2.4rem;
+        font-size: 1rem;
+
+        .logo {
+            margin-bottom: 2.3rem;
+
+            img {
+                width: 19rem;
+            }
+        }
+
+        .linkedin {
+
+            img {
+                width: 2.4rem;
+                height: auto;
+            }
+        }
+    }
 }
 
 .bottom-bar {
-    padding: 3.5rem 0;
+    padding: 1.5rem 0;
     text-align: center;
     background-color: #fff;
 
     a {
+
         &:not(:first-child):before {
             content: '|';
             margin-right: 1rem;
             margin-left: 1rem;
             color: $main-color;
         }
+    }
+
+    @media (max-width: $mobile-bp) {
+        font-size: 1.2rem;
     }
 }
