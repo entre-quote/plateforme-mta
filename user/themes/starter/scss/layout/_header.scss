@@ -14,6 +14,10 @@ header {
         margin-top: 12.8rem;
         margin-bottom: 27rem;
     }
+
+    @media (max-width: $mobile-bp) {
+        padding: 2.4rem 0;
+    }
 }
 
 .top-bar {

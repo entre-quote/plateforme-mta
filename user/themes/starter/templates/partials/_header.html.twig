@@ -6,7 +6,12 @@
         <div class="top-bar">
             {% include 'partials/_logo.html.twig' %}
 
-            <button id="open-nav"><span>Navigation</span></button>
+            <button id="open-nav">
+                <span>Navigation</span>
+                <div class="hamburger">
+                    <span></span>
+                </div>
+            </button>
         </div>
 
         {% block header_navigation %}
