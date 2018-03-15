@@ -90,6 +90,10 @@ footer {
         }
     }
 
+    @media (max-width: $tablet-bp) {
+        font-size: 2rem;
+    }
+
     @media (max-width: $mobile-bp) {
         font-size: 1.2rem;
     }

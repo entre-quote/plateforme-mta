@@ -632,6 +632,9 @@ footer {
     margin-right: 1rem;
     margin-left: 1rem;
     color: #000066; }
+  @media (max-width: 768px) {
+    .bottom-bar {
+      font-size: 2rem; } }
   @media (max-width: 550px) {
     .bottom-bar {
       font-size: 1.2rem; } }
