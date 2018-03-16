@@ -1,11 +1,14 @@
 <div class="main-nav">
 
     <div class="container">
-        {% include 'partials/_logo-white.html.twig' %}
+        <div class="top-content">
+            {% include 'partials/_logo-white.html.twig' %}
 
-        <button id="close-nav">
-            <span>Fermer la navigation</span>
-        </button>
+            <button id="close-nav">
+                <span>Fermer la navigation</span>
+                <div></div>
+            </button>
+        </div>
 
         <nav>
             {% for page in pages.children.visible %}

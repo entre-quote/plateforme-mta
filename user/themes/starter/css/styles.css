@@ -661,27 +661,61 @@ footer {
   right: 0;
   bottom: 0;
   left: -100vw;
-  display: flex;
-  align-items: center;
   width: 100%;
   background-color: #000066;
   z-index: 3;
   transition: left 0.4s ease-in-out; }
   .main-nav.active {
     left: 0; }
-  .main-nav nav a {
+  .main-nav .container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-right: 6.4rem;
+    padding-left: 6.4rem; }
+  .main-nav .top-content {
     display: flex;
     align-items: center;
-    font-size: 3rem;
-    color: #fff;
-    text-decoration: none; }
-    .main-nav nav a:before {
-      content: '';
-      display: inline-block;
-      width: 3.2rem;
-      height: 1px;
-      margin-right: 6.4rem;
-      background-color: #fff; }
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 6.5rem; }
+  .main-nav nav {
+    margin-top: auto;
+    margin-bottom: auto; }
+    .main-nav nav a {
+      display: flex;
+      align-items: center;
+      margin-bottom: 3rem;
+      font-size: 3rem;
+      line-height: 1.2;
+      color: #fff;
+      text-decoration: none; }
+      .main-nav nav a:before {
+        content: '';
+        display: inline-block;
+        width: 3.2rem;
+        height: 1px;
+        margin-right: 6.4rem;
+        background-color: #fff; }
+  @media (max-width: 768px) {
+    .main-nav nav {
+      margin-top: 4.8rem; }
+      .main-nav nav a {
+        font-size: 2.8rem; }
+        .main-nav nav a:before {
+          margin-right: 3.2rem; } }
+  @media (max-width: 630px) {
+    .main-nav .container {
+      padding-right: 2.4rem;
+      padding-left: 2.4rem; }
+    .main-nav nav {
+      margin-top: 2.4rem; }
+      .main-nav nav a {
+        margin-bottom: 1.6rem;
+        font-size: 2rem; }
+        .main-nav nav a:before {
+          width: 1.6rem;
+          margin-right: 1.6rem; } }
 
 .lang-nav {
   position: absolute;
@@ -715,6 +749,35 @@ button {
   @media (max-width: 630px) {
     #open-nav > span {
       display: none; } }
+
+#close-nav {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-weight: 300; }
+  #close-nav span {
+    line-height: 1; }
+    @media (max-width: 768px) {
+      #close-nav span {
+        display: none; } }
+  #close-nav div {
+    position: relative;
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-left: 8px; }
+    #close-nav div:before, #close-nav div:after {
+      content: '';
+      position: absolute;
+      height: 2px;
+      width: 100%;
+      top: 50%;
+      right: 0;
+      margin-top: -1px;
+      background: #fff; }
+    #close-nav div:before {
+      transform: rotate(45deg); }
+    #close-nav div:after {
+      transform: rotate(-45deg); }
 
 .hamburger {
   position: relative;
