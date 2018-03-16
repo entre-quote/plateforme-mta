@@ -12,6 +12,14 @@
         background-color: $main-color;
         box-shadow: 0 4px 32px 0 rgba(0, 0, 102, 0.48);
     }
+
+    @media (max-width: $tablet-bp) {
+        width: 100%;
+
+        nav {
+            margin-left: 0;
+        }
+    }
 }
 
 .page-nav {
@@ -64,5 +72,28 @@
     span {
         display: inline-block;
         line-height: 1.2;
+    }
+
+    @media (max-width: $tablet-bp) {
+        h3 {
+            display: none;
+        }
+    }
+}
+
+.mobile-page-nav {
+    display: none;
+    padding: 0;
+    font-weight: 2rem;
+    color: #fff;
+
+    &:after {
+        content: 'plop';
+    }
+
+    @media (max-width: $tablet-bp) {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
     }
 }

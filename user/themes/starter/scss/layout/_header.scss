@@ -15,8 +15,20 @@ header {
         margin-bottom: 27rem;
     }
 
+    @media (max-width: $tablet-bp) {
+
+        h1 {
+            margin-top: 3.2rem;
+            margin-bottom: 18rem;
+        }
+    }
     @media (max-width: $mobile-bp) {
         padding: 2.4rem 0;
+
+        h1 {
+            margin-top: 0;
+            margin-bottom: 18rem;
+        }
     }
 }
 

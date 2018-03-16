@@ -19,4 +19,12 @@ body {
   font-weight: 300;
   font-size: 1.6rem;
   line-height: 2;
+
+  @media (max-width: $tablet-bp) {
+      font-size: 2rem;
+  }
+
+  @media (max-width: $mobile-bp) {
+      font-size: 1.3rem;
+  }
 }
