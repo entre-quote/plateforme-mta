@@ -15,8 +15,6 @@
 }
 
 .page-nav {
-    // position: absolute;
-
 
     &,
     a {
@@ -61,5 +59,10 @@
         &:first-of-type {
             padding-top: 1.6rem;
         }
+    }
+
+    span {
+        display: inline-block;
+        line-height: 1.2;
     }
 }

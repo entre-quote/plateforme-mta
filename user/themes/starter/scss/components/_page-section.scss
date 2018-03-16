@@ -45,7 +45,14 @@
 
     img {
         display: block;
-        margin: 0 auto;
+        max-width: 100%;
+        margin: 6.4rem auto ;
+    }
+    figcaption {
+        margin-top: -5rem;
+        margin-bottom: 6.4rem;
+        text-align: center;
+        font-weight: 400;
     }
 
     p {

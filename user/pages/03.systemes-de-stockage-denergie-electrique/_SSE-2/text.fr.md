@@ -1,5 +1,6 @@
 ---
 title: 'Pourquoi tester un SSE ?'
+media_order: sse-essai.svg
 image_align: left
 ---
 
@@ -9,6 +10,8 @@ Lors d’un développement par une entreprise d’un produit contenant un SSE il
 * La performance
 * Le prix
 * La durée de vie
+
+![](sse-essai.svg)
 
 Ces points importants du produit sont à mettre au point et à vérifier pendant toute la durée du développement. Les essais sur SSE permettent ainsi à nos clients de :
 * **Benchmarker** différents fournisseurs d’accumulateurs et de sélectionner un élément parmi d’autre pour ses performances.

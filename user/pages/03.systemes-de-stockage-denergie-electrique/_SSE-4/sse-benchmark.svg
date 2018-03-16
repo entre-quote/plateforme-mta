@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="708px" height="436px" viewBox="0 0 708 436" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="76" y="104" width="32" height="272"></rect>
+        <rect id="path-2" x="162" y="128" width="32" height="248"></rect>
+        <rect id="path-3" x="247" y="144" width="32" height="232"></rect>
+        <rect id="path-4" x="333" y="160" width="32" height="216"></rect>
+        <rect id="path-5" x="419" y="168" width="32" height="208"></rect>
+        <rect id="path-6" x="505" y="216" width="32" height="160"></rect>
+        <rect id="path-7" x="590" y="224" width="32" height="152"></rect>
+        <rect id="path-8" x="676" y="296" width="32" height="80"></rect>
+        <rect id="path-9" x="564" y="0" width="32" height="16"></rect>
+    </defs>
+    <g id="Maquettes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop---SSE" transform="translate(-716.000000, -5042.000000)">
+            <g id="Exemple-Resultat" transform="translate(704.000000, 4744.000000)">
+                <g id="Group-3" transform="translate(0.000000, 296.000000)">
+                    <g id="Graph" transform="translate(12.000000, 24.000000)">
+                        <text id="60%" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                            <tspan x="0" y="380">60%</tspan>
+                        </text>
+                        <text id="Ref.-1" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                            <tspan x="76" y="412">Ref. 1</tspan>
+                        </text>
+                        <text id="Ref.-2" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                            <tspan x="159" y="412">Ref. 2</tspan>
+                        </text>
+                        <text id="Ref.-3" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                            <tspan x="245" y="412">Ref. 3</tspan>
+                        </text>
+                        <text id="Ref.-4" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                            <tspan x="330" y="412">Ref. 4</tspan>
+                        </text>
+                        <text id="Ref.-5" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                            <tspan x="416" y="412">Ref. 5</tspan>
+                        </text>
+                        <text id="Ref.-6" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                            <tspan x="502" y="412">Ref. 6</tspan>
+                        </text>
+                        <text id="Ref.-7" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                            <tspan x="589" y="412">Ref. 7</tspan>
+                        </text>
+                        <text id="Ref.-8" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                            <tspan x="674" y="412">Ref. 8</tspan>
+                        </text>
+                        <text id="80%" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                            <tspan x="0" y="282">80%</tspan>
+                        </text>
+                        <text id="100%" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                            <tspan x="0" y="183">100%</tspan>
+                        </text>
+                        <text id="120%" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                            <tspan x="0" y="85">120%</tspan>
+                        </text>
+                        <text id="70%" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                            <tspan x="0" y="331">70%</tspan>
+                        </text>
+                        <text id="90%" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                            <tspan x="0" y="233">90%</tspan>
+                        </text>
+                        <text id="110%" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                            <tspan x="0" y="134">110%</tspan>
+                        </text>
+                        <text id="130%" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                            <tspan x="0" y="36">130%</tspan>
+                        </text>
+                        <g id="Rectangle-2" opacity="0.5">
+                            <use fill-opacity="0.300000012" fill="#000066" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <rect stroke="#000066" stroke-width="1" x="76.5" y="104.5" width="31" height="271"></rect>
+                        </g>
+                        <g id="Rectangle-2" opacity="0.5">
+                            <use fill-opacity="0.300000012" fill="#000066" fill-rule="evenodd" xlink:href="#path-2"></use>
+                            <rect stroke="#000066" stroke-width="1" x="162.5" y="128.5" width="31" height="247"></rect>
+                        </g>
+                        <g id="Rectangle-2" opacity="0.5">
+                            <use fill-opacity="0.300000012" fill="#000066" fill-rule="evenodd" xlink:href="#path-3"></use>
+                            <rect stroke="#000066" stroke-width="1" x="247.5" y="144.5" width="31" height="231"></rect>
+                        </g>
+                        <g id="Rectangle-2" opacity="0.5">
+                            <use fill-opacity="0.300000012" fill="#000066" fill-rule="evenodd" xlink:href="#path-4"></use>
+                            <rect stroke="#000066" stroke-width="1" x="333.5" y="160.5" width="31" height="215"></rect>
+                        </g>
+                        <g id="Rectangle-2" opacity="0.5">
+                            <use fill-opacity="0.300000012" fill="#000066" fill-rule="evenodd" xlink:href="#path-5"></use>
+                            <rect stroke="#000066" stroke-width="1" x="419.5" y="168.5" width="31" height="207"></rect>
+                        </g>
+                        <g id="Rectangle-2" opacity="0.5">
+                            <use fill-opacity="0.300000012" fill="#000066" fill-rule="evenodd" xlink:href="#path-6"></use>
+                            <rect stroke="#000066" stroke-width="1" x="505.5" y="216.5" width="31" height="159"></rect>
+                        </g>
+                        <g id="Rectangle-2" opacity="0.5">
+                            <use fill-opacity="0.300000012" fill="#000066" fill-rule="evenodd" xlink:href="#path-7"></use>
+                            <rect stroke="#000066" stroke-width="1" x="590.5" y="224.5" width="31" height="151"></rect>
+                        </g>
+                        <g id="Rectangle-2" opacity="0.5">
+                            <use fill-opacity="0.300000012" fill="#000066" fill-rule="evenodd" xlink:href="#path-8"></use>
+                            <rect stroke="#000066" stroke-width="1" x="676.5" y="296.5" width="31" height="79"></rect>
+                        </g>
+                        <g id="Rectangle-2" opacity="0.5">
+                            <use fill-opacity="0.300000012" fill="#000066" fill-rule="evenodd" xlink:href="#path-9"></use>
+                            <rect stroke="#000066" stroke-width="1" x="564.5" y="0.5" width="31" height="15"></rect>
+                        </g>
+                        <polyline id="Path-7" stroke="#CCCCCC" points="52 32 52 392 694 391.001332"></polyline>
+                        <path d="M92,190.519437 L175.943447,43.9982251 C176.492536,43.0398024 177.714617,42.7079725 178.67304,43.2570623 C179.064378,43.4812639 179.368448,43.8311552 179.535888,44.2499343 L262.383682,251.458542 C262.741028,252.352292 263.684319,252.864728 264.628589,252.67807 L348.62894,236.073349 C348.87414,236.024879 349.108082,235.930878 349.318648,235.796214 L434.312031,181.43998 C434.753005,181.157962 435.286968,181.060063 435.799309,181.167297 L520.574872,198.91102 C520.855026,198.969657 521.11933,199.087742 521.349927,199.257299 L604.073529,260.083477 C604.963427,260.737814 606.215276,260.546854 606.869612,259.656956 C606.939839,259.561448 607.001434,259.459885 607.053672,259.353467 L627.300198,218.107391 L692,77.5" id="Path-6" stroke="#F97876" stroke-linecap="round" stroke-dasharray="4,4"></path>
+                        <circle id="Oval-6" stroke="#CCCCCC" fill="#FFFFFF" cx="52" cy="32" r="4"></circle>
+                        <circle id="Oval-6" stroke="#F97876" fill="#FFFFFF" cx="92" cy="190" r="4"></circle>
+                        <circle id="Oval-6" stroke="#F97876" fill="#FFFFFF" cx="178" cy="41" r="4"></circle>
+                        <circle id="Oval-6" stroke="#F97876" fill="#FFFFFF" cx="263" cy="253" r="4"></circle>
+                        <circle id="Oval-6" stroke="#F97876" fill="#FFFFFF" cx="349" cy="235" r="4"></circle>
+                        <circle id="Oval-6" stroke="#F97876" fill="#FFFFFF" cx="435" cy="181" r="4"></circle>
+                        <circle id="Oval-6" stroke="#F97876" fill="#FFFFFF" cx="606" cy="261" r="4"></circle>
+                        <circle id="Oval-6" stroke="#F97876" fill="#FFFFFF" cx="521" cy="199" r="4"></circle>
+                        <circle id="Oval-6" stroke="#F97876" fill="#FFFFFF" cx="692" cy="77" r="4"></circle>
+                        <circle id="Oval-6" stroke="#CCCCCC" fill="#FFFFFF" cx="52" cy="392" r="4"></circle>
+                        <circle id="Oval-6" stroke="#CCCCCC" fill="#FFFFFF" cx="692" cy="391" r="4"></circle>
+                        <text id="Energy" font-family="Montserrat-Bold, Montserrat" font-size="14" font-weight="bold" line-spacing="16" fill="#575757">
+                            <tspan x="605" y="14">Energy</tspan>
+                        </text>
+                        <text id="Max-Power" font-family="Montserrat-Bold, Montserrat" font-size="14" font-weight="bold" line-spacing="16" fill="#575757">
+                            <tspan x="605" y="46">Max Power</tspan>
+                        </text>
+                        <path d="M596.5,39.5 L564.719503,39.5" id="Line-10" stroke="#F97876" stroke-linecap="round" stroke-dasharray="4"></path>
+                    </g>
+                    <text id="Li-ion-cell-benchmar" font-family="Montserrat-Bold, Montserrat" font-size="14" font-weight="bold" line-spacing="16" fill="#575757">
+                        <tspan x="245.686" y="14">Li-ion cell benchmarking results</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

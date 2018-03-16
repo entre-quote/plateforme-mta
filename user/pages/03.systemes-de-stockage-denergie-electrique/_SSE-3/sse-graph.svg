@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="691px" height="461px" viewBox="0 0 691 461" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Maquettes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop---SSE" transform="translate(-740.000000, -4018.000000)">
+            <g id="Exemple-Essai" transform="translate(736.000000, 3384.000000)">
+                <g id="Group-4" transform="translate(0.000000, 632.000000)">
+                    <g id="Group-2" transform="translate(0.000000, 32.000000)">
+                        <g id="Graph">
+                            <g id="Grid">
+                                <text id="Voltage-(V)" font-family="Montserrat-Bold, Montserrat" font-size="14" font-weight="bold" line-spacing="16" fill="#575757">
+                                    <tspan x="520" y="38">Voltage (V)</tspan>
+                                </text>
+                                <text id="Current-(A)" font-family="Montserrat-Bold, Montserrat" font-size="14" font-weight="bold" line-spacing="16" fill="#575757">
+                                    <tspan x="520" y="62">Current (A)</tspan>
+                                </text>
+                                <path d="M511.5,31.5 L479.719503,31.5" id="Line-10" stroke="#4A90E2" stroke-linecap="round"></path>
+                                <path d="M511.5,55.5 L479.719503,55.5" id="Line-10" stroke="#F97876" stroke-width="2" stroke-linecap="round"></path>
+                                <polygon id="Path-7" stroke="#CCCCCC" points="72 8 72 368 632 368 632 8.49860918"></polygon>
+                                <text id="2,5" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                                    <tspan x="38.1611328" y="300">2,5</tspan>
+                                </text>
+                                <text id="3" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                                    <tspan x="43.7382812" y="228">3 </tspan>
+                                </text>
+                                <text id="3,5" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                                    <tspan x="38.140625" y="156">3,5</tspan>
+                                </text>
+                                <text id="4" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                                    <tspan x="43.1386719" y="84">4</tspan>
+                                </text>
+                                <text id="4,5" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                                    <tspan x="38.0410156" y="12">4,5</tspan>
+                                </text>
+                                <text id="2" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                                    <tspan x="43.3759766" y="372">2</tspan>
+                                </text>
+                                <text id="10" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                                    <tspan x="72.4228516" y="396">10</tspan>
+                                </text>
+                                <text id="20" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                                    <tspan x="155.59668" y="396">20</tspan>
+                                </text>
+                                <text id="Current-(A)" opacity="0.699999988" transform="translate(688.000000, 144.000000) rotate(270.000000) translate(-688.000000, -144.000000) " font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                                    <tspan x="656.549805" y="148">Current (A)</tspan>
+                                </text>
+                                <text id="Voltage-(V)" opacity="0.699999988" transform="translate(8.000000, 168.500000) rotate(270.000000) translate(-8.000000, -168.500000) " font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                                    <tspan x="-23.3828125" y="172.5">Voltage (V)</tspan>
+                                </text>
+                                <text id="30" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                                    <tspan x="241.458984" y="396">30</tspan>
+                                </text>
+                                <text id="40" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                                    <tspan x="326.359375" y="396">40</tspan>
+                                </text>
+                                <text id="50" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                                    <tspan x="411.508789" y="396">50</tspan>
+                                </text>
+                                <text id="Test-time-(h)" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                                    <tspan x="308.427734" y="428">Test time (h)</tspan>
+                                </text>
+                                <text id="60" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                                    <tspan x="497.897461" y="396">60</tspan>
+                                </text>
+                                <text id="70" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                                    <tspan x="583.889648" y="396">70</tspan>
+                                </text>
+                                <text id="-10" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                                    <tspan x="649.37207" y="372">-1</tspan>
+                                    <tspan x="651.220703" y="388">0</tspan>
+                                </text>
+                                <text id="-8" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                                    <tspan x="652.669922" y="336">-</tspan>
+                                    <tspan x="651.667969" y="352">8</tspan>
+                                </text>
+                                <text id="-6" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                                    <tspan x="652.669922" y="300">-</tspan>
+                                    <tspan x="651.676758" y="316">6</tspan>
+                                </text>
+                                <text id="-4" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                                    <tspan x="652.169922" y="264">-</tspan>
+                                    <tspan x="651.138672" y="280">4</tspan>
+                                </text>
+                                <text id="-2" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                                    <tspan x="652.169922" y="228">-</tspan>
+                                    <tspan x="651.375977" y="244">2</tspan>
+                                </text>
+                                <text id="0" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                                    <tspan x="651.720703" y="192">0</tspan>
+                                </text>
+                                <text id="2" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                                    <tspan x="651.375977" y="156">2</tspan>
+                                </text>
+                                <text id="4" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                                    <tspan x="651.138672" y="120">4</tspan>
+                                </text>
+                                <text id="6" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                                    <tspan x="651.176758" y="84">6</tspan>
+                                </text>
+                                <text id="8" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                                    <tspan x="651.167969" y="48">8</tspan>
+                                </text>
+                                <text id="10" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="16" fill="#575757">
+                                    <tspan x="648.422852" y="12">10</tspan>
+                                </text>
+                                <path d="M64.5,79.5 L639.5,79.5" id="Line-2" stroke="#CCCCCC" stroke-linecap="square"></path>
+                                <path d="M64.5,151.5 L639.503527,151.5" id="Line-2" stroke="#CCCCCC" stroke-linecap="square"></path>
+                                <path d="M64.4991304,223.5 L639.5,223.5" id="Line-2" stroke="#CCCCCC" stroke-linecap="square"></path>
+                                <path d="M64.4991304,295.5 L639.500882,295.5" id="Line-2" stroke="#CCCCCC" stroke-linecap="square"></path>
+                                <path d="M624.5,44.5 L639.632746,44.5" id="Line-5" stroke="#CCCCCC" stroke-linecap="square"></path>
+                                <path d="M624.5,8.5 L639.632746,8.5" id="Line-5" stroke="#CCCCCC" stroke-linecap="square"></path>
+                                <path d="M624.5,115.5 L639.632746,115.5" id="Line-5" stroke="#CCCCCC" stroke-linecap="square"></path>
+                                <path d="M624.5,189.5 L639.632746,189.5" id="Line-5" stroke="#CCCCCC" stroke-linecap="square"></path>
+                                <path d="M624.5,260.5 L639.632746,260.5" id="Line-5" stroke="#CCCCCC" stroke-linecap="square"></path>
+                                <path d="M624.5,332.5 L639.632746,332.5" id="Line-5" stroke="#CCCCCC" stroke-linecap="square"></path>
+                                <path d="M65,368 L80.132746,368" id="Line-5" stroke="#CCCCCC" stroke-linecap="square"></path>
+                                <path d="M65,8 L80.132746,8" id="Line-5" stroke="#CCCCCC" stroke-linecap="square"></path>
+                                <path d="M624.5,368 L639.632746,368" id="Line-5" stroke="#CCCCCC" stroke-linecap="square"></path>
+                                <path d="M591.5,375.5 L591.5,8.5" id="Line-6" stroke="#CCCCCC" stroke-linecap="square"></path>
+                                <path d="M163.5,375.5 L163.5,8.5" id="Line-6" stroke="#CCCCCC" stroke-linecap="square"></path>
+                                <path d="M249.5,375.5 L249.5,8.5" id="Line-6" stroke="#CCCCCC" stroke-linecap="square"></path>
+                                <path d="M334.5,375.5 L334.5,8.5" id="Line-6" stroke="#CCCCCC" stroke-linecap="square"></path>
+                                <path d="M420.5,375.5 L420.5,8.5" id="Line-6" stroke="#CCCCCC" stroke-linecap="square"></path>
+                                <path d="M505.5,375.5 L505.5,8.5" id="Line-6" stroke="#CCCCCC" stroke-linecap="square"></path>
+                            </g>
+                            <polyline id="Graph_Blue" stroke="#4A90E2" stroke-linejoin="round" points="72 66.9999032 92.5183199 66.9999032 101.526363 297.498973 101.526363 219.999286 109.779943 211.753108 109.779943 158.499534 125.047364 52.9999597 130.552279 52.9999597 134.679069 57.1230486 140.561215 297.498973 141.562109 219.999286 144.56479 217.999294 144.56479 158.499534 159.077748 52.9999597 163.581769 52.9999597 167.120463 56.5354793 175.092046 297.498973 176.09294 218.99929 178.35881 216.735453 178.35881 158.499534 193.108132 52.9999597 197.142864 52.9999597 200.890075 56.7438107 209.122431 297.498973 210.123324 218.99929 212.125112 216.735453 212.125112 158.499534 227.138517 52.9999597 232.142985 52.9999597 235.145666 57.1230486 238.148347 297.498973 240.150134 217.999294 242.416003 215.735457 242.416003 158.499534 255.163539 52.9999597 259.66756 52.9999597 264.480704 57.8087863 268.675603 297.498973 269.676497 213.499312 272.679178 209.999326 272.679178 158.499534 287.192136 52.9999597 291.806028 52.9999597 295.89339 57.0836557 298.201966 297.498973 299.703307 217.999294 302.205541 215.735457 302.205541 158.499534 317.218945 52.9999597 322.248374 52.9999597 325.226095 57.8087863 338.239119 57.8087863 338.239119 86.4998245 339.739053 59.9999314 341.74084 59.9999314 342.741734 43 343.742627 59.9999314 346.244861 59.9999314 346.244861 127.999657 348.747096 64.4999133 351.24933 63.4999173 351.24933 52.9999597 355.753351 64.4999133 356.754245 106.499744 357.755139 78.4998568 364.260947 78.4998568 364.761394 106.499744 365.762288 79.9998507 368.764969 79.9998507 368.764969 54.9999516 369.265416 78.9998548 373.26899 78.9998548 373.26899 142.999597 374.269884 81.9998427 377.773012 81.9998427 377.773012 65.9999072 383.277927 77.9998588 383.277927 123.502422 384.27882 93.9997942 385.279714 92.9997983 391.804742 92.9997983 391.804742 121.504412 392.786416 94.9997902 396.289544 92.9997983 396.289544 69.4998931 396.789991 92.9997983 400.293119 92.9997983 400.293119 156.99954 402.294906 94.9997902 404.846694 94.9997902 404.846694 84.4997158 405.798034 79.9998507 410.302055 93.9997942 410.302055 136.002601 411.803396 106.499744 413.304736 104.99975 419.330914 104.99975 419.330914 131.499643 420.811439 106.499744 423.313673 104.99975 423.313673 81.9998427 424.815013 104.99975 428.353707 104.99975 428.353707 169.49949 429.819482 107.49974 431.882877 107.49974 431.882877 91.9714193 436.825737 104.99975 436.825737 149.510805 438.327078 121.504412 445.83378 117.999697 445.83378 145.504132 447.335121 121.504412 450.337802 119.499691 450.337802 93.9948928 452.339589 117.999697 454.341376 119.499691 454.341376 183.501386 456.343164 123.502422 459.509138 123.502422 459.509138 104.999031 463.849866 116.999701 463.849866 161.002365 465.351206 132.999637 472.857909 132.999637 472.857909 158.499534 472.857909 133.419763 476.862282 133.419763 476.862282 108.499736 478.863271 131.499643 481.90737 131.499643 481.90737 188.999411 483.367292 136.002601 485.869526 134.499631 485.869526 118.991631 491.874888 131.499643 491.874888 173.499473 493.376229 141.999601 500.382484 140.999605 500.382484 167.499498 501.883825 141.999601 504.386059 141.999601 504.386059 115.480846 506.387846 140.999605 508.89008 140.999605 508.89008 188.999411 510.391421 142.999597 513.930114 142.999597 513.930114 125.999665 518.39857 139.499611 518.39857 184.499429 519.899911 150.999564 521.401251 149.510805 527.428373 149.510805 527.428373 176.499461 528.907954 149.510805 531.950224 149.510805 531.950224 123.502422 533.411975 148.499574 535.914209 148.499574 535.914209 195.999383 537.915996 151.99956 540.418231 150.999564 540.418231 134.499631 545.422699 148.499574 545.422699 211.753108 547.424486 163.499514 554.430742 163.499514 554.430742 202.499356 555.431635 165.499506 558.475735 165.499506 559.43521 163.499514 562.938338 163.499514 562.938338 215.735457 564.439678 167.499498 566.941912 167.499498 567.942806 146.99958 572.947274 162.499518 572.947274 210.001958 574.448615 179.499449 575.449508 178.499453 582.031859 178.499453 582.031859 190.013847 583.456658 179.499449 585.958892 179.499449 587.460232 178.499453 590.504332 178.499453 590.504332 188.999493 591.964254 179.499449 593.966041 179.499449 595.467382 156.99954 599.971403 176.499461 599.971403 298 601.97319 203.99935 611.982127 201.499361 632 201.499361"></polyline>
+                            <g id="Graph_Red" transform="translate(72.000000, 129.000000)" stroke="#F97876" stroke-width="2">
+                                <polyline id="Path-9" points="0 60.5 21.5293864 60.5 21.5293864 117.508263 30.015235 117.508263 30.015235 60.4914952 39.0134331 60.4914952 39.0134331 30.9959864 53.5347507 30.9959864 58.5 60.5 61.5 60.5 61.5 118.5 69.5156098 118.5 69.5156098 60.4977082 73.0000008 60.4977082 73.0000008 31.4956896 87.0000007 31.4956896 92.5 60.5 95.5 60.5 95.5 118.502155 103.5 118.502155 103.5 61 106.04951 61 106.04951 30.4999598 120.534562 30.4999598 127.5 61 127.5 118.519562 138.049384 118.519562 138.049384 60.497399 140.549969 60.497399 140.549969 30.4966244 155.008765 30.4966244 160.5 60.4914952 163.539995 60.4914952 163.539995 177.001251 167.5 177.001251 167.5 60.4989271 170.0493 60.4989271 170.0493 30.4999595 183.5 30.4999595 189.5 61 193.035534 61 193.035534 177.500005 197.527912 177.500005 197.527912 60.4999967 201.5 60.4999967 201.5 31.4827637 215.000011 31.4827637 220.5 61 222.561553 61 222.561553 177.003796 227.500001 177.003796 227.500001 60.9989224 231 60.9989224 231 31.4830551 244.500011 31.4830551 250 60.5 560.000403 60.5"></polyline>
+                                <path d="M266,119.002155 L266,61" id="Path-11"></path>
+                                <path d="M271,60.0021551 L271,8.5" id="Path-11"></path>
+                                <path d="M279,60.0021551 L279,30.4957633" id="Path-11"></path>
+                                <path d="M306,60.0021551 L306,30.4957633" id="Path-11"></path>
+                                <path d="M360,60.0021551 L360,30.4957633" id="Path-11"></path>
+                                <path d="M387,60.0021551 L387,30.4957633" id="Path-11"></path>
+                                <path d="M414,60.0021551 L414,30.4957633" id="Path-11"></path>
+                                <path d="M442,60.0021551 L442,30.4957633" id="Path-11"></path>
+                                <path d="M468,60.0021551 L468,30.4957633" id="Path-11"></path>
+                                <path d="M496,60.0021551 L496,30.4957633" id="Path-11"></path>
+                                <path d="M523,60.0021551 L523,30.4957633" id="Path-11"></path>
+                                <path d="M333,60.0021551 L333,30.4957633" id="Path-11"></path>
+                                <path d="M297,60.0021551 L297,0.497899273" id="Path-11"></path>
+                                <path d="M325,60.0021551 L325,0.497899273" id="Path-11"></path>
+                                <path d="M352,60.0021551 L352,0.497899273" id="Path-11"></path>
+                                <path d="M378,60.0021551 L378,0.497899273" id="Path-11"></path>
+                                <path d="M406,60.0021551 L406,0.497899273" id="Path-11"></path>
+                                <path d="M434,60.0021551 L434,0.497899273" id="Path-11"></path>
+                                <path d="M460,60.0021551 L460,0.497899273" id="Path-11"></path>
+                                <path d="M486,60.0021551 L486,0.497899273" id="Path-11"></path>
+                                <path d="M513,60.0021551 L513,0.497899273" id="Path-11"></path>
+                                <path d="M274.5,208 L274.5,61" id="Path-11"></path>
+                                <path d="M284,119.002155 L284,61" id="Path-11"></path>
+                                <path d="M293,119.002155 L293,61" id="Path-11"></path>
+                                <path d="M301.5,208 L301.5,61" id="Path-11"></path>
+                                <path d="M312,119.002155 L312,61" id="Path-11"></path>
+                                <path d="M320,119.002155 L320,61" id="Path-11"></path>
+                                <path d="M328.5,208 L328.5,61" id="Path-11"></path>
+                                <path d="M338,119.002155 L338,61" id="Path-11"></path>
+                                <path d="M355.5,208 L355.5,61" id="Path-11"></path>
+                                <path d="M365,119.002155 L365,61" id="Path-11"></path>
+                                <path d="M374,119.002155 L374,61" id="Path-11"></path>
+                                <path d="M382.5,208 L382.5,61" id="Path-11"></path>
+                                <path d="M392,119.002155 L392,61" id="Path-11"></path>
+                                <path d="M401,119.002155 L401,61" id="Path-11"></path>
+                                <path d="M409.5,208 L409.5,61" id="Path-11"></path>
+                                <path d="M446,119.002155 L446,61" id="Path-11"></path>
+                                <path d="M482,119.002155 L482,61" id="Path-11"></path>
+                                <path d="M420,119.002155 L420,61" id="Path-11"></path>
+                                <path d="M456,119.002155 L456,61" id="Path-11"></path>
+                                <path d="M491.5,208 L491.5,61" id="Path-11"></path>
+                                <path d="M429,119.002155 L429,61" id="Path-11"></path>
+                                <path d="M464.5,208 L464.5,61" id="Path-11"></path>
+                                <path d="M501,119.002155 L501,61" id="Path-11"></path>
+                                <path d="M437.5,208 L437.5,61" id="Path-11"></path>
+                                <path d="M474,119.002155 L474,61" id="Path-11"></path>
+                                <path d="M510,119.002155 L510,61" id="Path-11"></path>
+                                <path d="M518.5,208 L518.5,61" id="Path-11"></path>
+                                <path d="M528,119.002155 L528,61" id="Path-11"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <text id="Electrical-character" font-family="Montserrat-Bold, Montserrat" font-size="14" font-weight="bold" line-spacing="16" fill="#575757">
+                        <tspan x="223.326" y="14">Electrical characterization (capacity + DCR)</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
