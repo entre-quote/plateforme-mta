@@ -900,6 +900,7 @@ ul {
 ul {
   margin-top: 1rem;
   margin-bottom: 3.2rem;
+  padding-left: 3rem;
   list-style-type: none; }
   ul ul {
     margin-left: 20px; }
@@ -967,6 +968,12 @@ a {
     .page-article hr {
       width: 7.2rem; } }
 
+.article-content h3 {
+  font-size: 1.6rem;
+  font-weight: normal;
+  color: #000066; }
+.article-content a {
+  color: #000066; }
 .article-content img {
   display: block;
   max-width: 100%;
