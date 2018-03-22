@@ -1,5 +1,6 @@
 ---
 title: SSE
+media_order: illu-default.png
 content:
     items: '@self.modular'
     order:

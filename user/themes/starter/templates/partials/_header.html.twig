@@ -1,4 +1,7 @@
 {% block header %}
+
+{% set first_image = page.media.images|first %}
+
 <header class="header">
 
     <div class="container">
@@ -24,6 +27,11 @@
         </nav>
 
         {{page.content}}
+
+        <div class="header-illu">
+            <img src="{{ first_image.url }}" alt="" />
+        </div>
+
     </div>
 
 </header>

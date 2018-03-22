@@ -3,6 +3,14 @@
 
 .page {
     flex-wrap: wrap;
+
+    @media (max-width: $tablet-bp) {
+        padding-top: 17rem;
+    }
+
+    @media (max-width: $mobile-bp) {
+        padding-top: 5rem;
+    }
 }
 .page-section {
 

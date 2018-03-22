@@ -5,16 +5,14 @@
     z-index: 2;
 
     nav {
-        margin-left: -3.2rem;
-        padding: 3.2rem;
+        padding: 0 3.2rem 3.2rem;
         font-size: 1.8rem;
         font-weight: 300;
-        background-color: $main-color;
-        box-shadow: 0 4px 32px 0 rgba(0, 0, 102, 0.48);
     }
 
     @media (max-width: $tablet-bp) {
         width: 100%;
+        margin-top: 0;
 
         nav {
             margin-left: 0;
@@ -24,6 +22,13 @@
 
 .page-nav {
 
+    & > div {
+        padding-top: 3.2rem;
+        margin-left: -3.2rem;
+        background-color: $main-color;
+        box-shadow: 0 4px 32px 0 rgba(0, 0, 102, 0.48);
+    }
+
     &,
     a {
         color: #fff;
@@ -32,6 +37,7 @@
     h3 {
         position: relative;
         margin-bottom: 0;
+        margin-left: 3.2rem;
         padding-bottom: 3.2rem;
 
         &:before,

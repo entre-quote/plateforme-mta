@@ -8,15 +8,17 @@
     <aside  id="page-nav-wrapper" class=" four-twelves">
 
         <div class="page-nav">
-            <h3>{{page.title}}</h3>
+            <div class="">
+                <h3>{{page.title}}</h3>
 
-            <nav>
-                {% for module in page.collection() %}
-                {% set current_module = (module.active or module.activeChild) ? 'active' : '' %}
+                <nav>
+                    {% for module in page.collection() %}
+                    {% set current_module = (module.active or module.activeChild) ? 'active' : '' %}
 
-                <a data-scroll href="#{{ _self.pageLinkName(module.menu) | hyphenize}}" class="{{ current_module }}"><span>{{ module.menu }}</span></a>
-                {% endfor %}
-            </nav>
+                    <a data-scroll href="#{{ _self.pageLinkName(module.menu) | hyphenize}}" class="{{ current_module }}"><span>{{ module.menu }}</span></a>
+                    {% endfor %}
+                </nav>
+            </div>
         </div>
     </aside>
 
