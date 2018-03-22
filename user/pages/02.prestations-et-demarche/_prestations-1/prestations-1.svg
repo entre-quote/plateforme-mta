@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="531px" height="383px" viewBox="0 0 531 383" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+        <filter x="-43.8%" y="-31.2%" width="187.5%" height="187.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0.4  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-3" cx="8" cy="8" r="8"></circle>
+        <filter x="-43.8%" y="-31.2%" width="187.5%" height="187.5%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0.4  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-5" cx="8" cy="8" r="8"></circle>
+        <filter x="-43.8%" y="-31.2%" width="187.5%" height="187.5%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0.4  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-7" cx="8" cy="8" r="8"></circle>
+        <filter x="-43.8%" y="-31.2%" width="187.5%" height="187.5%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0.4  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-9" cx="8" cy="8" r="8"></circle>
+        <filter x="-43.8%" y="-31.2%" width="187.5%" height="187.5%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0.4  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-11" cx="8" cy="8" r="8"></circle>
+        <filter x="-43.8%" y="-31.2%" width="187.5%" height="187.5%" filterUnits="objectBoundingBox" id="filter-12">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0.4  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-13" cx="8" cy="8" r="8"></circle>
+        <filter x="-43.8%" y="-31.2%" width="187.5%" height="187.5%" filterUnits="objectBoundingBox" id="filter-14">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0.4  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Maquettes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop---Prestations" transform="translate(-868.000000, -1458.000000)">
+            <g id="Démarche" transform="translate(800.000000, 872.000000)">
+                <g id="Group-5" transform="translate(0.000000, 584.000000)">
+                    <g id="Schema-Déroulement" transform="translate(0.000000, 48.000000)">
+                        <g id="Group" transform="translate(368.000000, 16.000000)" fill="#000066" font-family="Montserrat-Regular, Montserrat" font-size="14" font-weight="normal" line-spacing="16">
+                            <text id="Problématique">
+                                <tspan x="0" y="14">Problématique</tspan>
+                            </text>
+                            <text id="Besoin-d’essai-forma">
+                                <tspan x="0" y="62">Besoin d’essai formalisé</tspan>
+                            </text>
+                            <text id="Définition-de-la-pro">
+                                <tspan x="0" y="110">Définition de la procédure d’essai</tspan>
+                            </text>
+                            <text id="Écriture-du-programm">
+                                <tspan x="0" y="158">Écriture du programme </tspan>
+                                <tspan x="0" y="174">&amp; préparation setup</tspan>
+                            </text>
+                            <text id="Réalisation-des-essa">
+                                <tspan x="0" y="206">Réalisation des essais</tspan>
+                            </text>
+                            <text id="Traitement-des-donné">
+                                <tspan x="0" y="254">Traitement des données brutes</tspan>
+                                <tspan x="0" y="270">- PV Résultat</tspan>
+                            </text>
+                            <text id="Expertise-et-rapport">
+                                <tspan x="0" y="302">Expertise et rapport d’essai</tspan>
+                                <tspan x="0" y="318">- Solution à la problématique</tspan>
+                            </text>
+                        </g>
+                        <g id="Group-2" transform="translate(336.000000, 30.000000)">
+                            <path d="M4,0 L4,34" id="Line-2" stroke="#000066" opacity="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4,4"></path>
+                            <path d="M4,48 L4,82" id="Line-2" stroke="#000066" opacity="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4,4"></path>
+                            <path d="M4,96 L4,130" id="Line-2" stroke="#000066" opacity="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4,4"></path>
+                            <path d="M4,144 L4,178" id="Line-2" stroke="#000066" opacity="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4,4"></path>
+                            <path d="M4,192 L4,226" id="Line-2" stroke="#000066" opacity="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4,4"></path>
+                            <path d="M4,240 L4,274" id="Line-2" stroke="#000066" opacity="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4,4"></path>
+                            <circle id="Oval" stroke="#CCCCCC" fill="#FFFFFF" cx="4" cy="42" r="4"></circle>
+                            <circle id="Oval" stroke="#CCCCCC" fill="#FFFFFF" cx="4" cy="90" r="4"></circle>
+                            <circle id="Oval" stroke="#CCCCCC" fill="#FFFFFF" cx="4" cy="138" r="4"></circle>
+                        </g>
+                        <g id="Next" transform="translate(332.000000, 16.000000)">
+                            <g id="Oval-5">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            </g>
+                            <g id="icone/16x16/Blue/Right" transform="translate(8.000000, 8.000000) rotate(90.000000) translate(-8.000000, -8.000000) translate(4.000000, 4.000000)" stroke="#000066" stroke-linecap="round">
+                                <polyline id="V" transform="translate(4.000000, 4.000000) scale(-1, 1) rotate(-270.000000) translate(-4.000000, -4.000000) " points="1 2.5 4.04838691 5.5 7 2.5"></polyline>
+                            </g>
+                        </g>
+                        <g id="Next" transform="translate(332.000000, 64.000000)">
+                            <g id="Oval-5">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                            </g>
+                            <g id="icone/16x16/Blue/Right" transform="translate(8.000000, 8.000000) rotate(90.000000) translate(-8.000000, -8.000000) translate(4.000000, 4.000000)" stroke="#000066" stroke-linecap="round">
+                                <polyline id="V" transform="translate(4.000000, 4.000000) scale(-1, 1) rotate(-270.000000) translate(-4.000000, -4.000000) " points="1 2.5 4.04838691 5.5 7 2.5"></polyline>
+                            </g>
+                        </g>
+                        <g id="Next" transform="translate(332.000000, 112.000000)">
+                            <g id="Oval-5">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                            </g>
+                            <g id="icone/16x16/Blue/Right" transform="translate(8.000000, 8.000000) rotate(90.000000) translate(-8.000000, -8.000000) translate(4.000000, 4.000000)" stroke="#000066" stroke-linecap="round">
+                                <polyline id="V" transform="translate(4.000000, 4.000000) scale(-1, 1) rotate(-270.000000) translate(-4.000000, -4.000000) " points="1 2.5 4.04838691 5.5 7 2.5"></polyline>
+                            </g>
+                        </g>
+                        <g id="Next" transform="translate(332.000000, 160.000000)">
+                            <g id="Oval-5">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+                            </g>
+                            <g id="icone/16x16/Blue/Right" transform="translate(8.000000, 8.000000) rotate(90.000000) translate(-8.000000, -8.000000) translate(4.000000, 4.000000)" stroke="#000066" stroke-linecap="round">
+                                <polyline id="V" transform="translate(4.000000, 4.000000) scale(-1, 1) rotate(-270.000000) translate(-4.000000, -4.000000) " points="1 2.5 4.04838691 5.5 7 2.5"></polyline>
+                            </g>
+                        </g>
+                        <g id="Next" transform="translate(332.000000, 208.000000)">
+                            <g id="Oval-5">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-9"></use>
+                            </g>
+                            <g id="icone/16x16/Blue/Right" transform="translate(8.000000, 8.000000) rotate(90.000000) translate(-8.000000, -8.000000) translate(4.000000, 4.000000)" stroke="#000066" stroke-linecap="round">
+                                <polyline id="V" transform="translate(4.000000, 4.000000) scale(-1, 1) rotate(-270.000000) translate(-4.000000, -4.000000) " points="1 2.5 4.04838691 5.5 7 2.5"></polyline>
+                            </g>
+                        </g>
+                        <g id="Next" transform="translate(332.000000, 256.000000)">
+                            <g id="Oval-5">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-11"></use>
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-11"></use>
+                            </g>
+                            <g id="icone/16x16/Blue/Right" transform="translate(8.000000, 8.000000) rotate(90.000000) translate(-8.000000, -8.000000) translate(4.000000, 4.000000)" stroke="#000066" stroke-linecap="round">
+                                <polyline id="V" transform="translate(4.000000, 4.000000) scale(-1, 1) rotate(-270.000000) translate(-4.000000, -4.000000) " points="1 2.5 4.04838691 5.5 7 2.5"></polyline>
+                            </g>
+                        </g>
+                        <g id="Next" transform="translate(332.000000, 304.000000)">
+                            <g id="Oval-5">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-14)" xlink:href="#path-13"></use>
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-13"></use>
+                            </g>
+                            <g id="icone/16x16/Blue/Right" transform="translate(8.000000, 8.000000) rotate(90.000000) translate(-8.000000, -8.000000) translate(4.000000, 4.000000)" stroke="#000066" stroke-linecap="round">
+                                <polyline id="V" transform="translate(4.000000, 4.000000) scale(-1, 1) rotate(-270.000000) translate(-4.000000, -4.000000) " points="1 2.5 4.04838691 5.5 7 2.5"></polyline>
+                            </g>
+                        </g>
+                        <g id="Group-3" opacity="0.5" transform="translate(288.000000, 0.000000)" stroke="#000066" stroke-linecap="round">
+                            <g id="Group-4">
+                                <polyline id="Line-2" stroke-linejoin="round" points="32 0 16 0 16 336 32 336"></polyline>
+                                <path d="M16,176 L0,176" id="Path-8"></path>
+                            </g>
+                        </g>
+                        <text id="Les-capacités-offert" font-family=".AppleSystemUIFont" font-size="14" font-weight="normal" line-spacing="24" fill="#000066">
+                            <tspan x="67.4550781" y="178">Les capacités  offertes par MTA</tspan>
+                        </text>
+                    </g>
+                    <text id="Déroulement-techniqu" font-family=".AppleSystemUIFont" font-size="14" font-weight="normal" line-spacing="16" fill="#000066">
+                        <tspan x="202.017578" y="11.9267578">Déroulement technique d’un essai</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,5 +1,7 @@
 ---
 title: 'Les moyens mis en œuvre'
+media_order: securite-2.jpg
+image_align: left
 ---
 
 Notre structure met à disposition différents outils de mise en sécurité, contre les risques SSE pendants nos essais, de trois types différents et complémentaires :
@@ -13,5 +15,5 @@ Nous avons déjà évoqué l’étude sécuritaire personnalisée qui mène, gé
 * Sécurité curative :  
 Dans l’hypothèse où les solutions de sécurité curatives et actives n’aient pas fonctionné un troisième niveau de moyens est mis en œuvre : les systèmes curatifs d’extinction automatique de feu. Spécifiquement conçus et dimensionnés pour nos installation et types d’événements, nos systèmes permettent d’éteindre des feux de SSE par l’injection de gaz inertant dans l’enceinte de test. Ces systèmes d’extinction automatique (24h/24h) permettent alors de temporiser avant l’arrivée des équipes incendie et d’éviter une propagation.
 
-![](https://place.cat/bw/300/200)  
+![](securite-2.jpg)
 Figure 2 : système d’extinction automatisé curatif de feu batterie.

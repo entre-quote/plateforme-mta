@@ -1,5 +1,6 @@
 ---
 title: Sécurité
+media_order: illu-default.png
 content:
     items: '@self.modular'
     order:
@@ -7,3 +8,8 @@ content:
         dir: asc
 ---
 
+<h1>
+Sécurité
+<span>Pour notre équipe<br>
+et vos équipements </span>
+</h1>
