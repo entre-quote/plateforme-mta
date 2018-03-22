@@ -92,17 +92,17 @@
     button {
         display: none;
         width: 100%;
-        padding: 8px 0 8px 3.2rem;
-        font-size: 1.4rem;
-        line-height: 2.3;
         color: #fff;
+        text-align: left;
     }
 
     @media (max-width: $tablet-bp) {
 
         button {
             display: block;
-            text-align: left;
+            padding: 1.6rem 2.5rem;
+            font-size: 2rem;
+            line-height: 1.6;
         }
 
         h3 {
@@ -126,10 +126,9 @@
 
     @media (max-width: $mobile-bp) {
         button {
-            padding-top: 1.6rem;
-            padding-bottom: 1.6rem;
-            font-size: 2rem;
-            line-height: 1.6;
+            padding: 8px 1.6rem;
+            font-size: 1.4rem;
+            line-height: 2.3;
         }
     }
 }

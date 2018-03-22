@@ -1054,14 +1054,14 @@ a {
 .page-nav button {
   display: none;
   width: 100%;
-  padding: 8px 0 8px 3.2rem;
-  font-size: 1.4rem;
-  line-height: 2.3;
-  color: #fff; }
+  color: #fff;
+  text-align: left; }
 @media (max-width: 768px) {
   .page-nav button {
     display: block;
-    text-align: left; }
+    padding: 1.6rem 2.5rem;
+    font-size: 2rem;
+    line-height: 1.6; }
   .page-nav h3 {
     display: none; }
   .page-nav nav {
@@ -1076,10 +1076,9 @@ a {
       max-height: 45rem; } }
 @media (max-width: 630px) {
   .page-nav button {
-    padding-top: 1.6rem;
-    padding-bottom: 1.6rem;
-    font-size: 2rem;
-    line-height: 1.6; } }
+    padding: 8px 1.6rem;
+    font-size: 1.4rem;
+    line-height: 2.3; } }
 
 .mobile-page-nav {
   display: none;
