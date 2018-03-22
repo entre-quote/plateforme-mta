@@ -1013,6 +1013,9 @@ a {
   margin-left: -3.2rem;
   background-color: #000066;
   box-shadow: 0 4px 32px 0 rgba(0, 0, 102, 0.48); }
+  @media (max-width: 768px) {
+    .page-nav > div {
+      margin-left: 0; } }
 .page-nav,
 .page-nav a {
   color: #fff; }
@@ -1045,9 +1048,23 @@ a {
 .page-nav span {
   display: inline-block;
   line-height: 1.2; }
+.page-nav button {
+  width: 100%;
+  padding-left: 3.2rem;
+  color: #fff; }
 @media (max-width: 768px) {
   .page-nav h3 {
-    display: none; } }
+    display: none; }
+  .page-nav nav {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    max-height: 0;
+    background-color: #000066;
+    transition: max-height 0.4s ease-in-out;
+    overflow: hidden; }
+    .page-nav nav.active {
+      max-height: 45rem; } }
 
 .mobile-page-nav {
   display: none;

@@ -27,6 +27,10 @@
         margin-left: -3.2rem;
         background-color: $main-color;
         box-shadow: 0 4px 32px 0 rgba(0, 0, 102, 0.48);
+
+        @media (max-width: $tablet-bp) {
+            margin-left: 0;
+        }
     }
 
     &,
@@ -80,9 +84,29 @@
         line-height: 1.2;
     }
 
+    button {
+        width: 100%;
+        padding-left: 3.2rem;
+        color: #fff;
+    }
+
     @media (max-width: $tablet-bp) {
         h3 {
             display: none;
+        }
+
+        nav {
+            position: absolute;
+            top: 100%;
+            width: 100%;
+            max-height: 0;
+            background-color: $main-color;
+            transition: max-height 0.4s ease-in-out;
+            overflow: hidden;
+
+            &.active {
+                max-height: 45rem;
+            }
         }
     }
 }

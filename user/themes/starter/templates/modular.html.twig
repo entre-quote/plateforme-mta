@@ -9,6 +9,8 @@
 
         <div class="page-nav">
             <div class="">
+                <button type="button" class="mobileNavBtn">Aller à une section</button>
+
                 <h3>{{page.title}}</h3>
 
                 <nav>
@@ -42,4 +44,5 @@
 
 {% do assets.addJs('theme://js/stickybits.min.js', {'group': 'bottom'}) %}
 {% do assets.addJs('theme://js/smooth-scroll.polyfills.min.js', {'group': 'bottom'}) %}
+{% do assets.addJs('theme://js/mobile-page-nav.js', {'group': 'bottom'}) %}
 {% do assets.addJs('theme://js/init.js', {'group': 'bottom'}) %}
