@@ -16,6 +16,11 @@
 
         nav {
             margin-left: 0;
+            padding-bottom: 0;
+
+            a:last-of-type {
+                margin-bottom: 3.2rem;
+            }
         }
     }
 }
@@ -23,7 +28,6 @@
 .page-nav {
 
     & > div {
-        padding-top: 3.2rem;
         margin-left: -3.2rem;
         background-color: $main-color;
         box-shadow: 0 4px 32px 0 rgba(0, 0, 102, 0.48);
@@ -42,6 +46,7 @@
         position: relative;
         margin-bottom: 0;
         margin-left: 3.2rem;
+        padding-top: 3.2rem;
         padding-bottom: 3.2rem;
 
         &:before,
@@ -85,12 +90,21 @@
     }
 
     button {
+        display: none;
         width: 100%;
-        padding-left: 3.2rem;
+        padding: 8px 0 8px 3.2rem;
+        font-size: 1.4rem;
+        line-height: 2.3;
         color: #fff;
     }
 
     @media (max-width: $tablet-bp) {
+
+        button {
+            display: block;
+            text-align: left;
+        }
+
         h3 {
             display: none;
         }
@@ -107,6 +121,15 @@
             &.active {
                 max-height: 45rem;
             }
+        }
+    }
+
+    @media (max-width: $mobile-bp) {
+        button {
+            padding-top: 1.6rem;
+            padding-bottom: 1.6rem;
+            font-size: 2rem;
+            line-height: 1.6;
         }
     }
 }
