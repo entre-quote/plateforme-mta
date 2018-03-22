@@ -1,5 +1,7 @@
 ---
 title: Historique
+media_order: societe-1.svg
+image_align: left
 ---
 
 À l’origine fut le programme **VEDELIC**, lancé en 1994, réunissant des partenaires régionaux impliqués de longue date dans la voiture électrique : le groupe PSA, Saft, Leroy Somer, Sagem et les universités régionales. Le projet VEDELIC a abouti à la présentation d’une Peugeot 106 équipée d’une nouvelle chaîne de traction composée d’un système de batterie lithium-ion et d’un groupe motopropulseur électrique synchrone à aimants permanents.
@@ -12,4 +14,4 @@ En 2009, à la demande du ministère de l’industrie, une partie des activités
 
 En recherche de croissance et d’un projet industriel fort MTA cherche alors un partenaire industriel. C’est ainsi que, en juillet 2014, **le groupe Zodiac Aerospace** prend la majorité des parts au sein de MTA plateforme d’essais SAS dans le but de développer ses activités dans le domaine du stockage d’énergie. En 2015 Zodiac termine l’intégration de MTA et possède alors l’intégralité de la société. Depuis lors Zodiac Aerospace conserve et développe la commercialisation des prestations MTA à ses différents clients.
 
-![](https://place.cat/c/300/200)
+![](societe-1.svg)
