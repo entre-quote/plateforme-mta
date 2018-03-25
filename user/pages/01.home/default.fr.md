@@ -38,19 +38,19 @@ body_classes: home
     <a href="securite">En savoir plus sur notre gestion de la sécurité</a>
 </div>
 
-<div class="grid-2">
+<div class="grid-2 read-more">
     <div>
-        <a href="">
-        	<img src="" alt="" />
+        <a href="/societe">
+        	<img src="illu-default.png" alt="" />
             <h3>En savoir plus sur MTA ?</h3>
             <span>Consulter notre page société</span>
         </a>
     </div> 
     <div>
-        <a href="">
-        	<img src="" alt="" />
-            <h3>En savoir plus sur MTA ?</h3>
-            <span>Consulter notre page société</span>
+        <a href="/contact">
+        	<img src="illu-default.png" alt="" />
+            <h3>Vous avez un projet?</h3>
+            <span>Contactez-nous</span>
         </a>
     </div>
 </div>
