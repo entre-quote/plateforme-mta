@@ -1,0 +1,33 @@
+{% extends 'partials/base.html.twig' %}
+
+
+{% block content %}
+<div class="page grid has-gutter">
+    <aside  id="page-nav-wrapper" class=" four-twelves">
+
+        <div class="page-nav">
+            <div class="">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2738.2381838194856!2d0.3747084157764311!3d46.66155846077102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47fdbcc8223f6199%3A0xa9d67fdf80ebd8eb!2sMTA+plateforme+d&#39;essais!5e0!3m2!1sfr!2sfr!4v1521889412077" width="390" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </aside>
+
+    <section class="page-section">
+        {% for module in page.collection() %}
+        <article class="page-article" id="{{ _self.pageLinkName(module.title) | hyphenize}}">
+            <div class="article-content">
+
+                <h2>{{module.title}}</h2>
+
+                {{ module.content }}
+            </div>
+
+            <hr><hr>
+        </article>
+        {% endfor %}
+    </section>
+</div>
+{% endblock %}
+
+{% do assets.addJs('theme://js/stickybits.min.js', {'group': 'bottom'}) %}
+{% do assets.addJs('theme://js/init.js', {'group': 'bottom'}) %}

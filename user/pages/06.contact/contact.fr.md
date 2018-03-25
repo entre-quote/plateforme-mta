@@ -1,8 +1,12 @@
 ---
 title: Contact
 media_order: illu-default.png
+body_classes: contact
 content:
     items: '@self.modular'
+    order:
+        by: ''
+        dir: ''
 ---
 
 <h1>
