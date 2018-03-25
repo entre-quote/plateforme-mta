@@ -1,6 +1,5 @@
 ---
 title: 'Secteur d''activité et expertise'
-media_order: societe-3.svg
 image_align: left
 ---
 

@@ -96,6 +96,12 @@
         text-align: left;
     }
 
+    @media (max-width: $desktop-width) {
+        & > div {
+            margin-left: 0;
+        }
+    }
+
     @media (max-width: $tablet-bp) {
 
         button {
