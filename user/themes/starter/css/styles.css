@@ -1120,6 +1120,85 @@ a {
 .contact strong {
   color: #000066; }
 
+.home .header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 73rem;
+  margin: 0 auto; }
+  .home .header-content h1 {
+    margin-bottom: 3.2rem;
+    padding: 0; }
+  .home .header-content img {
+    max-width: 80rem;
+    margin-bottom: -19rem; }
+
+.header-content a,
+.specialty a,
+.security a {
+  font-weight: 400;
+  color: #000066;
+  text-decoration: none; }
+  .header-content a:before,
+  .specialty a:before,
+  .security a:before {
+    content: '> '; }
+
+.specialty h2,
+.security h2 {
+  position: relative;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  font-size: 2rem; }
+  .specialty h2:before, .specialty h2:after,
+  .security h2:before,
+  .security h2:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    display: block;
+    height: 1px; }
+  .specialty h2:before,
+  .security h2:before {
+    left: -1.5rem;
+    width: 10rem; }
+  .specialty h2:after,
+  .security h2:after {
+    left: 9.5rem;
+    width: 1rem; }
+  .specialty h2 span,
+  .security h2 span {
+    display: block;
+    font-weight: bold; }
+
+.specialty {
+  margin-top: 15rem;
+  display: flex; }
+  .specialty > div:first-of-type {
+    width: calc(100% / 2 - 0.01px); }
+    .specialty > div:first-of-type img {
+      width: 100%;
+      height: auto; }
+  .specialty h2:before, .specialty h2:after {
+    background-color: #000066; }
+  .specialty h2:before {
+    left: -1.5rem; }
+  .specialty h2:after {
+    left: 9.5rem; }
+
+.security {
+  background-color: #000066; }
+  .security,
+  .security h2,
+  .security a {
+    color: #fff; }
+  .security h2:before, .security h2:after {
+    background-color: #fff; }
+  .security h2:before {
+    left: 0; }
+  .security h2:after {
+    left: 11rem; }
+
 /* --- Vendors --- */
 /*@import "vendors/"*/
 

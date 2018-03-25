@@ -26,11 +26,18 @@
             <a href="#">English</a>
         </nav>
 
-        {{page.content}}
-
-        <div class="header-illu">
-            <img src="{{ first_image.url }}" alt="" />
+        {% if page.slug == 'home' %}
+        <div class="header-content">
+            {{page.summary}}
         </div>
+
+        {% else %}
+            {{page.content}}
+
+            <div class="header-illu">
+                <img src="{{ first_image.url }}" alt="" />
+            </div>
+        {% endif %}
 
     </div>
 
