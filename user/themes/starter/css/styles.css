@@ -1187,10 +1187,14 @@ a {
     font-weight: bold; }
 
 .security {
+  position: relative;
   max-width: 72.8rem;
-  margin: 0 auto 10rem;
-  padding: 3.2rem;
-  background-color: #000066; }
+  margin: 0 auto 10rem; }
+  .security > div {
+    position: relative;
+    padding: 3.2rem;
+    background-color: #000066;
+    z-index: 3; }
   .security,
   .security h2,
   .security a {
@@ -1201,6 +1205,27 @@ a {
     left: -3.2rem; }
   .security h2:after {
     left: 7.8rem; }
+  .security hr {
+    width: 100vw;
+    height: 8px;
+    background-color: #F0F0F0;
+    position: absolute;
+    top: 0;
+    right: 50%;
+    bottom: 0;
+    left: 50%;
+    margin-top: auto;
+    margin-right: -50vw;
+    margin-bottom: auto;
+    margin-left: -50vw;
+    border: none;
+    z-index: 1; }
+    .security hr + hr {
+      right: 0;
+      left: -3.6rem;
+      max-width: 80rem;
+      margin: auto;
+      background-color: #fff; }
 
 .read-more {
   margin-bottom: 20rem; }
@@ -1212,7 +1237,8 @@ a {
     color: #000066;
     text-decoration: none; }
   .read-more img {
-    max-width: 100%; }
+    max-width: 75%;
+    margin: 0 auto; }
   .read-more h3 {
     margin: 0; }
   .read-more span:before {

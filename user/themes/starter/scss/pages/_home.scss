@@ -104,10 +104,16 @@
 }
 
 .security {
+    position: relative;
     max-width: 72.8rem;
     margin: 0 auto 10rem;
-    padding: 3.2rem;
-    background-color: $main-color;
+
+    & > div {
+        position: relative;
+        padding: 3.2rem;
+        background-color: $main-color;
+        z-index: 3;
+    }
 
     &,
     h2,
@@ -130,6 +136,31 @@
             left: 7.8rem;
         }
     }
+
+    hr {
+        width: 100vw;
+        height: 8px;
+        background-color: #F0F0F0;
+        position: absolute;
+        top: 0;
+        right: 50%;
+        bottom: 0;
+        left: 50%;
+        margin-top: auto;
+        margin-right: -50vw;
+        margin-bottom: auto;
+        margin-left: -50vw;
+        border: none;
+        z-index: 1;
+
+        & + hr {
+            right: 0;
+            left: -3.6rem;
+            max-width: 80rem;
+            margin: auto;
+            background-color: #fff;
+        }
+    }
 }
 
 .read-more {
@@ -149,7 +180,8 @@
     }
 
     img {
-        max-width: 100%;
+        max-width: 75%;
+        margin: 0 auto;
     }
 
     h3 {
