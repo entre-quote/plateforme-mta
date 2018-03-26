@@ -34,7 +34,7 @@ body_classes: home
 
 <div class="security">
     <div>
-       <h2>Notre priorité : <span>la sécurité</span></h2> 
+        <h2><i class="icon-security"></i>Notre priorité : <span>la sécurité</span></h2> 
         <p>MTA considère que la sécurité des personnes et du matériel comme sa priorité numéro 1. Nous portons une attention toute particulière aux systèmes en essais et à l’amélioration de nos procédures.</p>
         <a href="securite">En savoir plus sur notre gestion de la sécurité</a>
     </div>
