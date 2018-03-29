@@ -1008,6 +1008,8 @@ a {
 .article-content .owl-item figcaption {
   margin-top: 4rem;
   margin-bottom: 0; }
+  .article-content .owl-item figcaption span {
+    color: #CCC; }
 
 .article-content {
   padding: 13rem 0; }
@@ -1109,18 +1111,32 @@ a {
   line-height: 1.2; }
 .page-nav button {
   display: none;
+  justify-content: space-between;
   width: 100%;
+  padding: 1.6rem 2.5rem;
+  font-size: 2rem;
+  line-height: 1.6;
   color: #fff;
   text-align: left; }
+  .page-nav button:after {
+    content: '' !important;
+    position: relative;
+    display: block;
+    height: 1rem !important;
+    width: 1rem !important;
+    background-color: transparent;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 0px 1px 1px 0px;
+    transform: rotate(45deg); }
+  .page-nav button.active:after {
+    transform: rotate(-135deg); }
 @media (max-width: 1112px) {
   .page-nav > div {
     margin-left: 0; } }
 @media (max-width: 768px) {
   .page-nav button {
-    display: block;
-    padding: 1.6rem 2.5rem;
-    font-size: 2rem;
-    line-height: 1.6; }
+    display: flex; }
   .page-nav h3 {
     display: none; }
   .page-nav nav {

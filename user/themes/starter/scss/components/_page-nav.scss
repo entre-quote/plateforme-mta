@@ -91,9 +91,32 @@
 
     button {
         display: none;
+        justify-content: space-between;
         width: 100%;
+        padding: 1.6rem 2.5rem;
+        font-size: 2rem;
+        line-height: 1.6;
         color: #fff;
         text-align: left;
+
+        &:after {
+            content: '' !important;
+            position: relative;
+            display: block;
+            height: 1rem !important;
+            width: 1rem !important;
+            background-color: transparent;
+            border-style: solid;
+            border-color: #fff;
+            border-width: 0px 1px 1px 0px;
+            transform: rotate(45deg)
+        }
+
+        &.active {
+            &:after {
+                transform: rotate(-135deg)
+            }
+        }
     }
 
     @media (max-width: $desktop-width) {
@@ -105,10 +128,7 @@
     @media (max-width: $tablet-bp) {
 
         button {
-            display: block;
-            padding: 1.6rem 2.5rem;
-            font-size: 2rem;
-            line-height: 1.6;
+            display: flex;
         }
 
         h3 {

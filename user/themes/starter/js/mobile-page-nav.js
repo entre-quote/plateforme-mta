@@ -4,8 +4,10 @@ var pageNavLink = document.querySelectorAll('.page-nav nav a');
 
 mobileNavBtn.onclick = function() {
     pageNav.classList.toggle('active');
+    mobileNavBtn.classList.toggle('active');
 }
 
 pageNav.onclick = function() {
     pageNav.classList.toggle('active');
+    mobileNavBtn.classList.toggle('active');
 }
