@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+.hardware {
+    display: flex;
+    align-items: flex-start;
+    margin-left: -5rem;
+
+    & > div {
+        margin-right: 2rem;
+
+        &:first-child {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 3.2rem;
+            height: 3.2rem;
+
+            img {
+                margin: 0;
+                width: 3.2rem;
+                max-height: 100%;
+                max-width: inherit;
+            }
+
+        }
+    }
+
+    ul {
+        margin-top: -3rem;
+        padding-left: 0;
+    }
+
+    @media (max-width: $tablet-bp) {
+        margin-left: 0;
+    }
+
+}

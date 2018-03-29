@@ -18,7 +18,7 @@
         </div>
 
         {% block header_navigation %}
-        {% include 'partials/_navigation.html.twig' %}
+            {% include 'partials/_navigation.html.twig' %}
         {% endblock %}
 
         <nav class="lang-nav">
@@ -27,9 +27,9 @@
         </nav>
 
         {% if page.slug == 'home' %}
-        <div class="header-content">
-            {{page.summary}}
-        </div>
+            <div class="header-content">
+                {{page.summary}}
+            </div>
 
         {% else %}
             {{page.content}}

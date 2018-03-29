@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>icone/32x32/SSE/Etalonnage</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Maquettes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Desktop---SSE" transform="translate(-734.000000, -9409.000000)" stroke="#000066">
+            <g id="Materiel" transform="translate(719.000000, 6984.000000)">
+                <g id="icone/32x32/Blue/SSE/Etalonnage" transform="translate(13.000000, 2423.000000)">
+                    <g id="Etalonnage" transform="translate(1.000000, 2.000000)">
+                        <path d="M1.73076923,0.576923077 L1.73076923,27.1404564" id="Line-7"></path>
+                        <path d="M28.2692308,0.576923077 L28.2692308,27.1404564" id="Line-7"></path>
+                        <path d="M9.23076923,5.76923077 L9.23076923,24.2307692" id="Line-7"></path>
+                        <path d="M21.9230769,5.76923077 L21.9230769,23.0769231" id="Line-7"></path>
+                        <path d="M15,9.23076923 L15,18.4615385" id="Line-7"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

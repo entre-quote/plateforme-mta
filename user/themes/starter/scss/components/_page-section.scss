@@ -43,8 +43,15 @@
             left: 0;
 
             @media (max-width: $desktop-width) {
-                width: 100%;
+                width: 70%;
+                margin-left: auto;
+                margin-right: 0;
             }
+
+            @media (max-width: $mobile-bp) {
+                width: 50%;
+            }
+
         }
     }
 
@@ -98,7 +105,7 @@
     a {
         color: $main-color;
     }
-    
+
     img {
         display: block;
         max-width: 100%;
@@ -108,8 +115,9 @@
     figcaption {
         margin-top: -5rem;
         margin-bottom: 6.4rem;
+        font-size: 1.4rem;
         text-align: center;
-        font-weight: 400;
+        font-weight: 300;
     }
 
     p {
@@ -118,6 +126,12 @@
         &:not(.section-position),
         &:not(:last-child) {
             margin-bottom: 3.2rem;
+        }
+
+        &:last-child {
+            img {
+                margin-bottom: 0;
+            }
         }
     }
 
@@ -133,6 +147,14 @@
         margin-bottom: 0 !important;
     }
 
+
+    .owl-item {
+        figcaption {
+            margin-top: 4rem;
+            margin-bottom: 0;
+        }
+    }
+
 }
 
 .article-content {
@@ -141,4 +163,53 @@
     @media (max-width: $mobile-bp) {
         padding: 5rem 0;
     }
+}
+
+.owl-carousel .owl-nav {
+    top: auto !important;
+    bottom: -3rem;
+
+    .owl-prev,
+    .owl-next {
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        padding: 0 !important;
+        width: 3.2rem;
+        height: 3.2rem;
+        background-color: #fff !important;
+        border-radius: 50% !important;
+        box-shadow: 0 2px 4px 0 rgba(0,0,102,0.20);
+
+        &:after {
+            content: '' !important;
+            position: relative;
+            display: block;
+            min-height: 1rem !important;
+            min-width: 1rem !important;
+            background-color: transparent;
+            border-style: solid;
+            border-color: $main-color;
+            border-width: 0px 1px 1px 0px;
+        }
+    }
+
+    .owl-prev {
+        &:after {
+            margin-right: -5px;
+            transform: rotate(135deg);
+
+        }
+    }
+
+    .owl-next {
+        &:after {
+            margin-left: -5px;
+            transform: rotate(-45deg);
+        }
+    }
+}
+
+.owl-carousel .owl-item img {
+    margin-bottom: 3rem;
 }

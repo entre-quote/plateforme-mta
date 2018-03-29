@@ -6,6 +6,7 @@ content:
     order:
         by: default
         dir: asc
+body_classes: sse
 menu: 'Systèmes de stockage d’énergie électrique (SSE)'
 ---
 

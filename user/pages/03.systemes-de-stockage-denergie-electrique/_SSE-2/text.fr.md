@@ -4,7 +4,9 @@ media_order: sse-essai.svg
 image_align: left
 ---
 
-Lors d’un développement par une entreprise d’un produit contenant un SSE il convient de veiller à plusieurs points importants :
+<div mardown=1 class=list-title>
+    Lors d’un développement par une entreprise d’un produit contenant un SSE il convient de veiller à plusieurs points importants :
+</div>
 * La sécurité
 * La qualité
 * La performance
@@ -13,7 +15,9 @@ Lors d’un développement par une entreprise d’un produit contenant un SSE il
 
 ![](sse-essai.svg)
 
+<div mardown=1 class=list-title>
 Ces points importants du produit sont à mettre au point et à vérifier pendant toute la durée du développement. Les essais sur SSE permettent ainsi à nos clients de :
+ </div>
 * **Benchmarker** différents fournisseurs d’accumulateurs et de sélectionner un élément parmi d’autre pour ses performances.
 * **Caractériser** leurs SSE afin de connaitre et définir précisément leurs performances.
 * Obtenir les caractéristiques électriques et thermiques des SSE dans un objectif de **modélisation**.

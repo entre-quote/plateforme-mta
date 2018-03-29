@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>icone/32x32/SSE/BancEssai</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Maquettes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop---SSE" transform="translate(-732.000000, -7168.000000)" stroke="#000066">
+            <g id="Materiel" transform="translate(719.000000, 6984.000000)">
+                <g id="icone/32x32/Blue/SSE/Essai" transform="translate(13.000000, 184.000000)">
+                    <g id="BancEssai" transform="translate(1.000000, 1.000000)">
+                        <path d="M30.313685,11.9336926 C28.6295863,5.17543833 22.5835901,0.455590133 15.6094725,0.455590133 C7.25364706,0.455590133 0.455316888,7.25300949 0.455316888,15.6088349 C0.455316888,21.7486452 4.11770778,27.2417761 9.78662619,29.6017002" id="Stroke-1" stroke-linecap="round"></path>
+                        <path d="M15.6072865,13.2679469 C16.8979127,13.2679469 17.9435294,14.3135636 17.9435294,15.6032789 C17.9435294,16.8939051 16.8979127,17.9395218 15.6072865,17.9395218 C14.3175712,17.9395218 13.2719545,16.8939051 13.2719545,15.6032789 C13.2719545,14.3135636 14.3175712,13.2679469 15.6072865,13.2679469 Z" id="Stroke-3" stroke-linecap="round"></path>
+                        <path d="M15.0771006,0.589388994 L15.0771006,3.68434156" id="Stroke-5" stroke-linecap="round"></path>
+                        <path d="M4.19175712,5.67183302 L6.379537,7.86052372" id="Stroke-7" stroke-linecap="round"></path>
+                        <path d="M26.8937533,5.47837571 L24.5593321,7.44300569" id="Stroke-9" stroke-linecap="round"></path>
+                        <path d="M0.456045541,15.7010095 L3.45445161,15.7010095" id="Stroke-11" stroke-linecap="round"></path>
+                        <path d="M4.69971917,26.0002429 L6.88840987,23.8115522" id="Stroke-13" stroke-linecap="round"></path>
+                        <path d="M23.5368501,8.23350285 C23.0249715,7.69338899 22.3855787,8.1624592 22.3855787,8.1624592 L16.2430361,13.3577533 C17.0910057,13.5972979 17.7431499,14.3022694 17.9034535,15.180296 L23.6588994,9.27183302 C24.0268691,8.70803795 23.5368501,8.23350285 23.5368501,8.23350285 Z" id="Stroke-15"></path>
+                        <path d="M15.6072865,26.6739734 C15.6300569,26.6047514 20.7752562,22.0424744 20.7752562,22.0424744 L23.7108159,24.775833 L28.8623909,19.6306338" id="Stroke-17" stroke-linecap="round"></path>
+                        <polyline id="Stroke-19" stroke-linecap="round" points="26.2764023 19.6307249 29.103575 19.3319772 29.103575 22.2511423"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

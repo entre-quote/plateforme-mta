@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="24px" viewBox="0 0 31 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>icone/32x32/SSE/Conditionnement</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Maquettes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Desktop---SSE" transform="translate(-733.000000, -7556.000000)" stroke="#000066">
+            <g id="Materiel" transform="translate(719.000000, 6984.000000)">
+                <g id="icone/32x32/Blue/SSE/Condition" transform="translate(13.000000, 568.000000)">
+                    <g id="Condition" transform="translate(1.000000, 5.000000)">
+                        <path d="M19.9668,5.09996667 C19.9668,2.3753 22.1754667,0.166633333 24.9001333,0.166633333 C27.6248,0.166633333 29.8334667,2.3753 29.8334667,5.09996667 C29.8334667,7.82463333 27.6248,10.0333 24.9001333,10.0333 L0.1668,10.0333" id="Stroke-1"></path>
+                        <path d="M9.03336667,3.5334 C9.03336667,1.98706667 10.2870333,0.7334 11.8333667,0.7334 C13.3797,0.7334 14.6333667,1.98706667 14.6333667,3.5334 C14.6333667,5.07973333 13.3797,6.3334 11.8333667,6.3334 L0.1667,6.3334" id="Stroke-3"></path>
+                        <path d="M0.166666667,14.5666 L15.1333333,14.5666 C17.2136667,14.5666 18.9,16.2532667 18.9,18.3332667 C18.9,20.4136 17.2136667,22.1002667 15.1333333,22.1002667 C13.053,22.1002667 11.3666667,20.4136 11.3666667,18.3332667" id="Stroke-5"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

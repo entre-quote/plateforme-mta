@@ -911,6 +911,9 @@ ul {
 li:before {
   content: "\00b7";
   margin-right: 3rem; }
+  @media (max-width: 630px) {
+    li:before {
+      margin-right: 2rem; } }
 
 a {
   color: #2F2929; }
@@ -950,7 +953,12 @@ a {
       left: 0; }
       @media (max-width: 1112px) {
         .page-article hr + hr {
-          width: 100%; } }
+          width: 70%;
+          margin-left: auto;
+          margin-right: 0; } }
+      @media (max-width: 630px) {
+        .page-article hr + hr {
+          width: 50%; } }
   .page-article:last-of-type hr {
     display: none; }
   @media (max-width: 768px) {
@@ -981,12 +989,15 @@ a {
 .article-content figcaption {
   margin-top: -5rem;
   margin-bottom: 6.4rem;
+  font-size: 1.4rem;
   text-align: center;
-  font-weight: 400; }
+  font-weight: 300; }
 .article-content p {
   margin: 0; }
   .article-content p:not(.section-position), .article-content p:not(:last-child) {
     margin-bottom: 3.2rem; }
+  .article-content p:last-child img {
+    margin-bottom: 0; }
 .article-content .section-position {
   color: #CCCCCC; }
   @media (max-width: 768px) {
@@ -994,12 +1005,50 @@ a {
       display: none; } }
 .article-content > *:last-child {
   margin-bottom: 0 !important; }
+.article-content .owl-item figcaption {
+  margin-top: 4rem;
+  margin-bottom: 0; }
 
 .article-content {
   padding: 13rem 0; }
   @media (max-width: 630px) {
     .article-content {
       padding: 5rem 0; } }
+
+.owl-carousel .owl-nav {
+  top: auto !important;
+  bottom: -3rem; }
+  .owl-carousel .owl-nav .owl-prev,
+  .owl-carousel .owl-nav .owl-next {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    padding: 0 !important;
+    width: 3.2rem;
+    height: 3.2rem;
+    background-color: #fff !important;
+    border-radius: 50% !important;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 102, 0.2); }
+    .owl-carousel .owl-nav .owl-prev:after,
+    .owl-carousel .owl-nav .owl-next:after {
+      content: '' !important;
+      position: relative;
+      display: block;
+      min-height: 1rem !important;
+      min-width: 1rem !important;
+      background-color: transparent;
+      border-style: solid;
+      border-color: #000066;
+      border-width: 0px 1px 1px 0px; }
+  .owl-carousel .owl-nav .owl-prev:after {
+    margin-right: -5px;
+    transform: rotate(135deg); }
+  .owl-carousel .owl-nav .owl-next:after {
+    margin-left: -5px;
+    transform: rotate(-45deg); }
+
+.owl-carousel .owl-item img {
+  margin-bottom: 3rem; }
 
 #page-nav-wrapper {
   margin-top: -13rem;
@@ -1111,7 +1160,46 @@ a {
   background: url(../images/icons/securite.svg) center center no-repeat;
   vertical-align: middle; }
 
+figure {
+  margin: 0; }
+
+.over-left {
+  width: calc(100% + 3rem);
+  max-width: none !important;
+  margin-left: -3rem !important; }
+  @media (max-width: 768px) {
+    .over-left {
+      width: 100%;
+      margin-left: 0 !important; } }
+
+.hardware {
+  display: flex;
+  align-items: flex-start;
+  margin-left: -5rem; }
+  .hardware > div {
+    margin-right: 2rem; }
+    .hardware > div:first-child {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 3.2rem;
+      height: 3.2rem; }
+      .hardware > div:first-child img {
+        margin: 0;
+        width: 3.2rem;
+        max-height: 100%;
+        max-width: inherit; }
+  .hardware ul {
+    margin-top: -3rem;
+    padding-left: 0; }
+  @media (max-width: 768px) {
+    .hardware {
+      margin-left: 0; } }
+
 /* --- Pages --- */
+.sse ul {
+  padding-left: 0; }
+
 .contact .page-nav iframe {
   width: 100%;
   margin-bottom: -1rem; }
@@ -1157,7 +1245,8 @@ a {
   position: relative;
   margin-bottom: 2rem;
   padding-bottom: 2rem;
-  font-size: 2rem; }
+  font-size: 2rem;
+  font-weight: 400; }
   .specialty h2:before, .specialty h2:after,
   .security h2:before,
   .security h2:after {
@@ -1174,6 +1263,9 @@ a {
   .security h2:after {
     left: 9.5rem;
     width: 1rem; }
+  .specialty h2 span,
+  .security h2 span {
+    font-weight: 500; }
 
 .specialty {
   margin-top: 15rem;
@@ -1234,6 +1326,9 @@ a {
       max-width: 80rem;
       margin: auto;
       background-color: #fff; }
+  @media (max-width: 630px) {
+    .security {
+      margin-bottom: 5rem; } }
 
 .read-more {
   margin-bottom: 20rem; }
@@ -1251,6 +1346,14 @@ a {
     margin: 0; }
   .read-more span:before {
     content: '> '; }
+  @media (max-width: 630px) {
+    .read-more {
+      margin-bottom: 5rem; }
+      .read-more > div:last-child {
+        margin-top: 2rem;
+        padding-top: 2rem;
+        border-top: 2px dashed #E3E3E3;
+        border-left: none; } }
 
 /* --- Vendors --- */
 /*@import "vendors/"*/

@@ -8,4 +8,4 @@ Au démarrage d’un projet, un industriel nous contacte dans le cadre d’un pr
 
 ![](sse-BatteriePack.jpg "« Quelle batterie de format 18650 choisir ? »")
 
-![](sse-graph.svg)
+![](sse-graph.svg){.over-left}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="32px" viewBox="0 0 26 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>icone/32x32/SSE/Securite</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Maquettes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Desktop---SSE" transform="translate(-736.000000, -7744.000000)" stroke="#000066">
+            <g id="Materiel" transform="translate(719.000000, 6984.000000)">
+                <g id="icone/32x32/Blue/SSE/Securite" transform="translate(15.000000, 760.000000)">
+                    <g id="Securite" transform="translate(3.000000, 1.000000)">
+                        <path d="M24.0404978,3.80162557 L12.3372871,0.0232502583 C12.2408994,-0.00775008611 12.1341006,-0.00775008611 12.0377129,0.0232502583 L0.334502191,3.80162557 C0.135681612,3.86595962 0,4.05129501 0,4.25863065 L0,12.6767242 C0,18.5217891 2.9433506,23.9805165 7.84333751,27.2225525 L11.9188235,29.9192491 C12.0817086,30.026917 12.2932914,30.026917 12.4561765,29.9192491 L16.5316625,27.2225525 C21.4316494,23.9805165 24.375,18.5217891 24.375,12.6767242 L24.375,4.25863065 C24.3746642,4.05096168 24.2393184,3.86562628 24.0404978,3.80162557 Z" id="Stroke-1"></path>
+                        <polyline id="Stroke-3" points="13.3928571 7.5 9.375 13.59375 14.0625 13.59375 10.3794643 19.6875"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+figure {
+    margin: 0;
+}
+
+.over-left {
+    width: calc(100% + 3rem);
+    max-width: none !important;
+    margin-left: -3rem !important;
+
+    @media (max-width: $tablet-bp) {
+        width: 100%;
+        margin-left: 0 !important;
+    }
+}
