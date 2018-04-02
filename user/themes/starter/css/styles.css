@@ -6,7 +6,7 @@ Comment everything not useful for the current project
 /* ==Grillade : Simple Grid System    */
 /* ---------------------------------- */
 /* Doc : http://grillade.knacss.com */
-@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,300i,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,300i,400,500,600,700");
 @media (min-width: 576px) {
   [class*=" grid-"],
   [class^="grid-"] {
@@ -574,7 +574,7 @@ body {
     padding: 0 2.4rem; } }
 header {
   padding: 6rem 0 0;
-  background-color: #f9f9f9;
+  background-color: #f6f6f6;
   border-top: 4px solid #000066; }
   header .container {
     position: relative; }
@@ -631,13 +631,18 @@ footer {
 .footer-content {
   padding-top: 10rem;
   padding-bottom: 10rem; }
+  .footer-content nav {
+    position: relative; }
   .footer-content .logo {
     margin-bottom: 3.2rem; }
     .footer-content .logo img {
       width: 32rem;
       height: auto; }
   .footer-content .linkedin {
-    align-self: flex-end; }
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: auto; }
   .footer-content a {
     display: flex;
     align-items: center;
@@ -730,6 +735,7 @@ footer {
       align-items: center;
       margin-bottom: 3rem;
       font-size: 3rem;
+      font-weight: 300;
       line-height: 1.2;
       color: #fff;
       text-decoration: none; }
@@ -780,7 +786,7 @@ button {
   align-items: center;
   font-family: inherit;
   font-size: 1.6rem;
-  font-weight: 400;
+  font-weight: 300;
   background: none;
   border: none; }
   @media (max-width: 768px) {
@@ -824,29 +830,16 @@ button {
 
 .hamburger {
   position: relative;
+  display: flex;
   width: 2.4rem;
   height: 2.4rem;
   margin-left: 8px; }
-  .hamburger span {
-    top: 50%;
+  .hamburger:after {
+    content: '';
     display: block;
-    margin-top: -1px; }
-    .hamburger span, .hamburger span:before, .hamburger span:after {
-      position: absolute;
-      left: 0;
-      width: 2.4rem;
-      height: 2px;
-      transition-timing-function: ease;
-      transition-duration: .15s;
-      transition-property: transform;
-      border-radius: 2px;
-      background-color: #000066; }
-    .hamburger span:before, .hamburger span:after {
-      content: ''; }
-    .hamburger span:before {
-      top: -10px; }
-    .hamburger span:after {
-      bottom: -10px; }
+    width: 2.4rem;
+    height: 2.4rem;
+    background: url(../images/icons/Menu.svg) center center no-repeat; }
   @media (max-width: 768px) {
     .hamburger {
       width: 3.2rem;
@@ -860,7 +853,7 @@ h2 {
 
 h1,
 h3 {
-  font-weight: 700; }
+  font-weight: 600; }
 
 h1 {
   margin: 0;
@@ -869,7 +862,7 @@ h1 {
   h1 span {
     display: block;
     font-size: 4rem;
-    font-weight: 300; }
+    font-weight: 200; }
   @media (max-width: 768px) {
     h1, h1 span {
       font-size: 3.8rem; } }
@@ -880,7 +873,7 @@ h1 {
 h2 {
   margin: 0 0 3.2rem;
   font-size: 4rem;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.4; }
   @media (max-width: 630px) {
     h2 {
@@ -908,12 +901,14 @@ ul {
 .list-title + ul {
   margin-top: 0; }
 
-li:before {
-  content: "\00b7";
-  margin-right: 3rem; }
-  @media (max-width: 630px) {
-    li:before {
-      margin-right: 2rem; } }
+li {
+  display: flex; }
+  li:before {
+    content: "\00b7";
+    margin-right: 3rem; }
+    @media (max-width: 630px) {
+      li:before {
+        margin-right: 2rem; } }
 
 a {
   color: #2F2929; }
@@ -981,11 +976,22 @@ a {
   font-weight: normal;
   color: #000066; }
 .article-content a {
+  display: flex;
+  align-items: center;
   color: #000066; }
+  .article-content a:before {
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    margin-right: 8px;
+    background: url(../images/icons/ico-chevron.svg) 0 0 no-repeat; }
 .article-content img {
   display: block;
   max-width: 100%;
   margin: 6.4rem auto; }
+.article-content figure img {
+  box-shadow: 0 4px 32px 0 rgba(0, 0, 102, 0.5); }
 .article-content figcaption {
   margin-top: -5rem;
   margin-bottom: 6.4rem;
@@ -999,7 +1005,8 @@ a {
   .article-content p:last-child img {
     margin-bottom: 0; }
 .article-content .section-position {
-  color: #CCCCCC; }
+  color: #CCCCCC;
+  margin-bottom: 0 !important; }
   @media (max-width: 768px) {
     .article-content .section-position {
       display: none; } }
@@ -1019,7 +1026,7 @@ a {
 
 .owl-carousel .owl-nav {
   top: auto !important;
-  bottom: -3rem; }
+  bottom: -1.9rem; }
   .owl-carousel .owl-nav .owl-prev,
   .owl-carousel .owl-nav .owl-next {
     display: flex !important;
@@ -1056,7 +1063,7 @@ a {
   margin-top: -13rem;
   z-index: 2; }
   #page-nav-wrapper nav {
-    padding: 0 3.2rem 3.2rem;
+    padding: 1.4rem 3.2rem 3.2rem;
     font-size: 1.8rem;
     font-weight: 300; }
   @media (max-width: 768px) {
@@ -1072,7 +1079,7 @@ a {
 .page-nav > div {
   margin-left: -3.2rem;
   background-color: #000066;
-  box-shadow: 0 4px 32px 0 rgba(0, 0, 102, 0.48); }
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 102, 0.48); }
   @media (max-width: 768px) {
     .page-nav > div {
       margin-left: 0; } }
@@ -1230,6 +1237,7 @@ figure {
 .contact td table td:first-of-type {
   width: 50%; }
 .contact strong {
+  font-weight: 400;
   color: #000066; }
 
 .home .header-content {
@@ -1237,24 +1245,35 @@ figure {
   flex-direction: column;
   align-items: center;
   max-width: 73rem;
-  margin: 0 auto; }
+  margin: 0 auto;
+  font-weight: 200; }
   .home .header-content h1 {
     margin-bottom: 3.2rem;
-    padding: 0; }
+    padding: 0;
+    font-weight: 300; }
   .home .header-content img {
     max-width: 80rem;
     margin-bottom: -19rem; }
+.home main {
+  padding-top: 6rem; }
 
 .header-content a,
 .specialty a,
 .security a {
+  display: flex;
+  align-items: center;
   font-weight: 400;
   color: #000066;
   text-decoration: none; }
   .header-content a:before,
   .specialty a:before,
   .security a:before {
-    content: '> '; }
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    margin-right: 8px;
+    background: url(../images/icons/ico-chevron.svg) 0 0 no-repeat; }
 
 .specialty h2,
 .security h2 {
@@ -1262,7 +1281,7 @@ figure {
   margin-bottom: 2rem;
   padding-bottom: 2rem;
   font-size: 2rem;
-  font-weight: 400; }
+  font-weight: 200; }
   .specialty h2:before, .specialty h2:after,
   .security h2:before,
   .security h2:after {
@@ -1359,9 +1378,20 @@ figure {
     max-width: 75%;
     margin: 0 auto; }
   .read-more h3 {
-    margin: 0; }
-  .read-more span:before {
-    content: '> '; }
+    margin: 0;
+    font-weight: 600; }
+  .read-more span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400; }
+    .read-more span:before {
+      content: '';
+      display: block;
+      width: 8px;
+      height: 8px;
+      margin-right: 8px;
+      background: url(../images/icons/ico-chevron.svg) 0 0 no-repeat; }
   @media (max-width: 630px) {
     .read-more {
       margin-bottom: 5rem; }

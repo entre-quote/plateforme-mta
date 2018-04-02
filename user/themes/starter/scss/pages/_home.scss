@@ -8,16 +8,22 @@
         align-items: center;
         max-width: 73rem;
         margin: 0 auto;
+        font-weight: 200;
 
         h1 {
             margin-bottom: 3.2rem;
             padding: 0;
+            font-weight: 300;
         }
 
         img {
             max-width: 80rem;
             margin-bottom: -19rem;
         }
+    }
+
+    main {
+        padding-top: 6rem;
     }
 }
 
@@ -26,12 +32,19 @@
 .security {
 
     a {
+        display: flex;
+        align-items: center;
         font-weight: 400;
         color: $main-color;
         text-decoration: none;
 
         &:before {
-            content: '> ';
+            content: '';
+            display: block;
+            width: 8px;
+            height: 8px;
+            margin-right: 8px;
+            background: url(../images/icons/ico-chevron.svg) 0 0 no-repeat;
         }
     }
 }
@@ -44,7 +57,7 @@
         margin-bottom: 2rem;
         padding-bottom: 2rem;
         font-size: 2rem;
-        font-weight: 400;
+        font-weight: 200;
 
         &:before,
         &:after {
@@ -195,12 +208,22 @@
 
     h3 {
         margin: 0;
+        font-weight: 600;
     }
 
     span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 400;
 
         &:before {
-            content: '> ';
+            content: '';
+            display: block;
+            width: 8px;
+            height: 8px;
+            margin-right: 8px;
+            background: url(../images/icons/ico-chevron.svg) 0 0 no-repeat;
         }
     }
 

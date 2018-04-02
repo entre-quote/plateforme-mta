@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="16px" viewBox="0 0 20 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>icone/24x24/Menu</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Desktop/Organisme/Menu" transform="translate(-1410.000000, -96.000000)" stroke="#000066">
+            <g id="icone/24x24/Blue/Menu" transform="translate(1408.000000, 92.000000)">
+                <g id="Menu_icone" transform="translate(3.000000, 5.000000)">
+                    <path d="M0,0.466666667 L18,0.466666667" id="Line-2"></path>
+                    <path d="M0,7 L18,7" id="Line-2"></path>
+                    <path d="M0,13.5333333 L18,13.5333333" id="Line-2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

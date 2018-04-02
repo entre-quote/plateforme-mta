@@ -5,7 +5,7 @@
     z-index: 2;
 
     nav {
-        padding: 0 3.2rem 3.2rem;
+        padding: 1.4rem 3.2rem 3.2rem;
         font-size: 1.8rem;
         font-weight: 300;
     }
@@ -30,7 +30,7 @@
     & > div {
         margin-left: -3.2rem;
         background-color: $main-color;
-        box-shadow: 0 4px 32px 0 rgba(0, 0, 102, 0.48);
+        box-shadow: 0 4px 20px 0 rgba(0, 0, 102, 0.48);
 
         @media (max-width: $tablet-bp) {
             margin-left: 0;

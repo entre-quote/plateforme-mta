@@ -1,5 +1,5 @@
 ---
-title: 'Démarche globale et accompagnement client'
+title: 'Démarche et accompagnement'
 media_order: prestations-1.svg
 image_align: left
 ---

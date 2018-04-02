@@ -5,7 +5,7 @@ button {
     align-items: center;
     font-family: inherit;
     font-size: 1.6rem;
-    font-weight: 400;
+    font-weight: 300;
     background: none;
     border: none;
 
@@ -66,41 +66,17 @@ button {
 
 .hamburger {
     position: relative;
+    display: flex;
     width: 2.4rem;
     height: 2.4rem;
     margin-left: 8px;
 
-    span {
-        top: 50%;
+    &:after {
+        content: '';
         display: block;
-        margin-top: -1px;
-
-        &,
-        &:before,
-        &:after {
-            position: absolute;
-            left: 0;
-            width: 2.4rem;
-            height: 2px;
-            transition-timing-function: ease;
-            transition-duration: .15s;
-            transition-property: transform;
-            border-radius: 2px;
-            background-color: $main-color;
-        }
-
-        &:before,
-        &:after {
-            content: '';
-        }
-
-        &:before {
-            top: -10px;
-        }
-
-        &:after {
-            bottom: -10px;
-        }
+        width: 2.4rem;
+        height: 2.4rem;
+        background: url(../images/icons/Menu.svg) center center no-repeat;
     }
 
     @media (max-width: $tablet-bp) {
