@@ -103,18 +103,18 @@
     }
 
     a {
-        display: flex;
+        display: inline-flex;
         align-items: center;
         color: $main-color;
 
-        &:before {
-            content: '';
-            display: block;
-            width: 8px;
-            height: 8px;
-            margin-right: 8px;
-            background: url(../images/icons/ico-chevron.svg) 0 0 no-repeat;
-        }
+        // &:before {
+        //     content: '';
+        //     display: block;
+        //     width: 8px;
+        //     height: 8px;
+        //     margin-right: 8px;
+        //     background: url(../images/icons/ico-chevron.svg) 0 0 no-repeat;
+        // }
     }
 
     img {
@@ -168,6 +168,11 @@
 
 
     .owl-item {
+
+        img {
+            box-shadow: 0 4px 16px 0 rgba(0, 0, 102, 0.5);
+        }
+        
         figcaption {
             margin-top: 4rem;
             margin-bottom: 0;

@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg width="26px" height="32px" viewBox="0 0 26 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
     <title>Ico_Securité</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Maquettes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="Desktop---Home" transform="translate(-543.000000, -1513.000000)" stroke="#FFFFFF">
-            <g id="Securité" transform="translate(0.000000, 1480.000000)">
+        <g id="Desktop---Home" transform="translate(-543.000000, -1585.000000)" stroke="#FFFFFF" stroke-width="1.5">
+            <g id="Securité" transform="translate(0.000000, 1552.000000)">
                 <g id="Ico_Securité" transform="translate(544.000000, 34.000000)">
-                    <path d="M23.670644,3.80162557 L12.1474827,0.0232502583 C12.0525779,-0.00775008611 11.9474221,-0.00775008611 11.8525173,0.0232502583 L0.329356003,3.80162557 C0.133594202,3.86595962 0,4.05129501 0,4.25863065 L0,12.6767242 C0,18.5217891 2.89806829,23.9805165 7.72267078,27.2225525 L11.735457,29.9192491 C11.8958362,30.026917 12.1041638,30.026917 12.264543,29.9192491 L16.2773292,27.2225525 C21.1019317,23.9805165 24,18.5217891 24,12.6767242 L24,4.25863065 C23.9996693,4.05096168 23.8664058,3.86562628 23.670644,3.80162557 Z" id="Stroke-1"></path>
-                    <polyline id="Stroke-3" points="12.4285714 8 9 14 13 14 9.85714286 20"></polyline>
+                    <path d="M23.670644,3.77346538 L12.1474827,0.0230780342 C12.0525779,-0.00769267807 11.9474221,-0.00769267807 11.8525173,0.0230780342 L0.329356003,3.77346538 C0.133594202,3.83732288 0,4.02128542 0,4.22708524 L0,12.5828225 C0,18.3845907 2.89806829,23.802883 7.72267078,27.0209039 L11.735457,29.697625 C11.8958362,29.8044954 12.1041638,29.8044954 12.264543,29.697625 L16.2773292,27.0209039 C21.1019317,23.802883 24,18.3845907 24,12.5828225 L24,4.22708524 C23.9996693,4.02095455 23.8664058,3.83699202 23.670644,3.77346538 Z" id="Stroke-1"></path>
+                    <polyline id="Stroke-3" points="13.1428571 7.55555556 9.33333333 13.5555556 13.7777778 13.5555556 10.2857143 19.5555556"></polyline>
                 </g>
             </g>
         </g>

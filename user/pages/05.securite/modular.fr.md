@@ -1,6 +1,6 @@
 ---
 title: Sécurité
-media_order: illu-default.png
+media_order: Risques_Vecto.png
 content:
     items: '@self.modular'
     order:

@@ -1,5 +1,9 @@
 <a class="logo" href="{{ base_url == '' ? '/' : base_url }}">
-        <img src="{{ url('theme://images/logo-mta.svg') }}" alt="Plateforme MTA">
+        <span class="mobile-hidden">
+            <img src="{{ url('theme://images/logo-mta-zodiac.svg') }}" alt="Plateforme MTA - Zodiac Aerospace">
+        </span>
 
-        <img src="{{ url('theme://images/logo-zodiac.svg') }}" alt="Zodiac Aerospace">
+        <span class="mobile-display">
+            <img src="{{ url('theme://images/logo-mta.svg') }}" alt="Plateforme MTA">
+        </span>
 </a>

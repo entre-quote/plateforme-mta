@@ -1,6 +1,6 @@
 ---
 title: SSE
-media_order: illu-default.png
+media_order: SSE_Vecto.png
 content:
     items: '@self.modular'
     order:

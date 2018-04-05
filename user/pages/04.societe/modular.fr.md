@@ -1,6 +1,6 @@
 ---
 title: Société
-media_order: illu-default.png
+media_order: Societe_Vecto.png
 content:
     items: '@self.modular'
     order:

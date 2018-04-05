@@ -154,6 +154,11 @@
         }
     }
 
+a {
+    &:before {
+        background-image: url(../images/icons/ico-chevron-white.svg);
+    }
+}
     hr {
         width: 100vw;
         height: 8px;

@@ -1,6 +1,6 @@
 ---
 title: Accueil
-media_order: 'illu-default.png,home-2.jpg'
+media_order: 'illu-default.png,home-2.jpg,Home_Contact.svg,Home_Societe.svg,Home_SSE.svg'
 body_classes: home
 ---
 
@@ -16,7 +16,7 @@ body_classes: home
 
 <div class="specialty">
     <div>
-        <img src="home-2.jpg" alt="">
+        <img src="Home_SSE.svg" alt="">
     </div>
     <div>
         <h2>Notre spécialité :   
@@ -45,14 +45,14 @@ body_classes: home
 <div class="grid-2 read-more">
     <div>
         <a href="/societe">
-        	<img src="illu-default.png" alt="" />
+        	<img src="Home_Societe.svg" alt="" />
             <h3>En savoir plus sur MTA ?</h3>
             <span>Consulter notre page société</span>
         </a>
     </div> 
     <div>
         <a href="/contact">
-        	<img src="illu-default.png" alt="" />
+        	<img src="Home_Contact.svg" alt="" />
             <h3>Vous avez un projet?</h3>
             <span>Contactez-nous</span>
         </a>

@@ -16,3 +16,23 @@
 .align-bottom {
     align-self: flex-end;
 }
+
+.no-shadow {
+    box-shadow: none !important;
+}
+
+.mobile-display {
+    display: none;
+
+    @media (max-width: $tablet-bp) {
+        display: block;
+    }
+}
+
+.mobile-hidden {
+    display: block;
+
+    @media (max-width: $tablet-bp) {
+        display: none;
+    }
+}

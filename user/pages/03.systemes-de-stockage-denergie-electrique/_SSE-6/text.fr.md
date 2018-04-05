@@ -31,7 +31,7 @@ Le matériel proposé pour les essais SSE est le suivant :
 
 {% endfor %}
 
-[owl-carousel items=1 margin=40 loop=true autoplay=true autoplayHoverPause=true nav=true dots=false]
+[owl-carousel items=1 margin=40 loop=true nav=true dots=false]
 ![](012.jpg?cropZoom=728,456&classes=caption "Manutention d’un pack batterie")
 ![](021-rogne.jpg?cropZoom=728,456&classes=caption  "Zone essais SSE modules")
 ![](025.jpg?cropZoom=728,456&classes=caption  "Enceinte SSE 11m&sup3;")

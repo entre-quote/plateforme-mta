@@ -1,6 +1,6 @@
 ---
 title: Contact
-media_order: illu-default.png
+media_order: Contact_Vecto.png
 body_classes: contact
 content:
     items: '@self.modular'

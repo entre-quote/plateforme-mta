@@ -557,6 +557,21 @@ body {
 .align-bottom {
   align-self: flex-end; }
 
+.no-shadow {
+  box-shadow: none !important; }
+
+.mobile-display {
+  display: none; }
+  @media (max-width: 768px) {
+    .mobile-display {
+      display: block; } }
+
+.mobile-hidden {
+  display: block; }
+  @media (max-width: 768px) {
+    .mobile-hidden {
+      display: none; } }
+
 /* --- Layout --- */
 .container {
   margin: 0 auto;
@@ -691,17 +706,6 @@ footer {
       font-size: 1.2rem; } }
 
 /* --- Components --- */
-.logo {
-  display: flex;
-  align-items: center; }
-  .logo img + img {
-    margin-left: 2rem; }
-  @media (max-width: 630px) {
-    .logo img {
-      width: 19rem; }
-      .logo img + img {
-        display: none; } }
-
 /* --- Nav --- */
 .main-nav {
   position: fixed;
@@ -817,7 +821,7 @@ button {
     #close-nav div:before, #close-nav div:after {
       content: '';
       position: absolute;
-      height: 2px;
+      height: 3px;
       width: 100%;
       top: 50%;
       right: 0;
@@ -901,14 +905,12 @@ ul {
 .list-title + ul {
   margin-top: 0; }
 
-li {
-  display: flex; }
-  li:before {
-    content: "\00b7";
-    margin-right: 3rem; }
-    @media (max-width: 630px) {
-      li:before {
-        margin-right: 2rem; } }
+li:before {
+  content: "\00b7";
+  margin-right: 3rem; }
+  @media (max-width: 630px) {
+    li:before {
+      margin-right: 2rem; } }
 
 a {
   color: #2F2929; }
@@ -976,16 +978,9 @@ a {
   font-weight: normal;
   color: #000066; }
 .article-content a {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   color: #000066; }
-  .article-content a:before {
-    content: '';
-    display: block;
-    width: 8px;
-    height: 8px;
-    margin-right: 8px;
-    background: url(../images/icons/ico-chevron.svg) 0 0 no-repeat; }
 .article-content img {
   display: block;
   max-width: 100%;
@@ -1012,6 +1007,8 @@ a {
       display: none; } }
 .article-content > *:last-child {
   margin-bottom: 0 !important; }
+.article-content .owl-item img {
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 102, 0.5); }
 .article-content .owl-item figcaption {
   margin-top: 4rem;
   margin-bottom: 0; }
@@ -1134,7 +1131,7 @@ a {
     background-color: transparent;
     border-style: solid;
     border-color: #fff;
-    border-width: 0px 1px 1px 0px;
+    border-width: 0px 2px 2px 0px;
     transform: rotate(45deg); }
   .page-nav button.active:after {
     transform: rotate(-135deg); }
@@ -1168,7 +1165,7 @@ a {
   font-weight: 2rem;
   color: #fff; }
   .mobile-page-nav:after {
-    content: 'plop'; }
+    content: ''; }
   @media (max-width: 768px) {
     .mobile-page-nav {
       display: flex;
@@ -1340,6 +1337,8 @@ figure {
     left: -3.2rem; }
   .security h2:after {
     left: 7.8rem; }
+  .security a:before {
+    background-image: url(../images/icons/ico-chevron-white.svg); }
   .security hr {
     width: 100vw;
     height: 8px;
