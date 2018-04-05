@@ -1,6 +1,6 @@
 ---
 title: Accueil
-media_order: 'illu-default.png,home-2.jpg,Home_Contact.svg,Home_Societe.svg,Home_SSE.svg'
+media_order: 'Prestations_Vecto.png,Home_Contact.svg,Home_Societe.svg,Home_SSE.svg'
 body_classes: home
 ---
 
@@ -10,7 +10,7 @@ body_classes: home
 
 [Découvrir toutes nos prestations ](/prestations-et-demarche) {.center}
 
-![](illu-default.png)
+![](Prestations_Vecto.png)
 
 ===
 

@@ -20,7 +20,11 @@
 }
 
 .page-article {
-    padding-left: calc(100% / 12 - 1rem - 0.01px);
+    padding-left: calc(100% / 12 *1.5 - 1rem - 0.01px);
+
+    &:last-of-type {
+        margin-bottom: 6.4rem;
+    }
 
     hr {
         width: 100vw;
@@ -100,6 +104,16 @@
         font-size: 1.6rem;
         font-weight: normal;
         color: $main-color;
+
+        @media (max-width: $tablet-bp) {
+            font-size: 2rem;
+            margin-bottom: 1.6rem;
+        }
+
+        @media (max-width: $mobile-bp) {
+            font-size: 1.4rem;
+            margin-bottom: 1.2rem;
+        }
     }
 
     a {
@@ -126,7 +140,7 @@
     figure {
 
         img {
-            box-shadow: 0 4px 32px 0 rgba(0,0,102,0.5);
+            box-shadow: 0 8px 16px 0 rgba(0,0,102,0.20);
         }
     }
 
@@ -153,6 +167,12 @@
         }
     }
 
+    ul {
+        @media (max-width: $tablet-bp) {
+            padding-left: 0;
+        }
+    }
+
     .section-position {
         color: $alt-color;
         margin-bottom: 0 !important;
@@ -170,9 +190,10 @@
     .owl-item {
 
         img {
-            box-shadow: 0 4px 16px 0 rgba(0, 0, 102, 0.5);
+            width: 95% !important;
+            box-shadow: 0 8px 16px 0 rgba(0,0,102,0.20);
         }
-        
+
         figcaption {
             margin-top: 4rem;
             margin-bottom: 0;

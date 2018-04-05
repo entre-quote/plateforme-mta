@@ -1,23 +1,10 @@
 @charset "UTF-8";
 
-// .logo {
-//     display: flex;
-//     align-items: center;
-//
-//     // img {
-//     //
-//     //     & + img {
-//     //         margin-left: 2rem;
-//     //     }
-//     // }
-//     //
-//     // @media (max-width: $mobile-bp) {
-//     //     img {
-//     //         width: 19rem;
-//     //
-//     //         & + img {
-//     //             display: none;
-//     //         }
-//     //     }
-//     // }
-// }
+.logo {
+
+    @media (max-width: $mobile-bp) {
+        img {
+            width: 80%;
+        }
+    }
+}

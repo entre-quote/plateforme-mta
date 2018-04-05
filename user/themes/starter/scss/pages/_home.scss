@@ -1,13 +1,16 @@
 @charset "UTF-8";
 
 .home {
+    header {
+        overflow: visible;
+    }
 
     .header-content {
         display: flex;
         flex-direction: column;
         align-items: center;
         max-width: 73rem;
-        margin: 0 auto;
+        margin: 6.4rem auto 0;
         font-weight: 200;
 
         h1 {
@@ -20,10 +23,18 @@
             max-width: 80rem;
             margin-bottom: -19rem;
         }
+
+        @media (max-width: $mobile-bp) {
+            margin-top: 0;
+        }
     }
 
     main {
         padding-top: 6rem;
+
+        @media (max-width: $mobile-bp) {
+            padding-top: 0;
+        }
     }
 }
 
@@ -85,16 +96,23 @@
 }
 
 .specialty {
-    margin-top: 15rem;
+    margin-top: 20rem;
     margin-bottom: 12rem;
     display: flex;
 
     & > div:first-of-type {
         width: calc(100% / 2 - 0.01px);
+        text-align: right;
 
         img {
-            width: 100%;
-            height: auto;
+            width: auto;
+            height: 18.7rem;
+            margin-top: 7px;
+            margin-right: 2.8rem;
+        }
+
+        @media (max-width: $mobile-bp) {
+            display: none;
         }
     }
 
@@ -117,6 +135,11 @@
             display: block;
             font-weight: bold;
         }
+    }
+
+    @media (max-width: $mobile-bp) {
+        padding-top: 0;
+        margin-bottom: 6rem;
     }
 }
 
@@ -154,11 +177,12 @@
         }
     }
 
-a {
-    &:before {
-        background-image: url(../images/icons/ico-chevron-white.svg);
+    a {
+        &:before {
+            background-image: url(../images/icons/ico-chevron-white.svg);
+        }
     }
-}
+
     hr {
         width: 100vw;
         height: 8px;
@@ -182,7 +206,12 @@ a {
             margin: auto;
             background-color: #fff;
         }
+
+        @media (max-width: $tablet-bp) {
+            display: none;
+        }
     }
+
     @media (max-width: $mobile-bp) {
         margin-bottom: 5rem;
     }
@@ -197,8 +226,6 @@ a {
         &:last-child {
             border-left: 2px dashed #E3E3E3;
         }
-
-
     }
 
     a {
@@ -207,8 +234,12 @@ a {
     }
 
     img {
-        max-width: 75%;
+        max-width: 15.2rem;
         margin: 0 auto;
+
+        @media (max-width: $mobile-bp) {
+            width: 40%;
+        }
     }
 
     h3 {
@@ -230,6 +261,7 @@ a {
             margin-right: 8px;
             background: url(../images/icons/ico-chevron.svg) 0 0 no-repeat;
         }
+
     }
 
     @media (max-width: $mobile-bp) {

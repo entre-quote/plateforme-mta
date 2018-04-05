@@ -3,7 +3,7 @@ title: enceinte
 media_order: Enceinte.svg
 ---
 
-Les enceintes, qui permettent un conditionnement thermique de l’atmosphère des SSE :
+**Les enceintes, qui permettent un conditionnement thermique de l’atmosphère des SSE :**
 
 * 2 enceintes 500L +15°C ↔ +70°C (essais calendaires)
 * 5 enceintes 150L 0°C ↔ +70°C

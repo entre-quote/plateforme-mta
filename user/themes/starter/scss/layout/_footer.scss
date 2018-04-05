@@ -30,6 +30,12 @@ footer {
         right: 0;
         bottom: 0;
         width: auto;
+        opacity: 1;
+        transition: opacity 0.3s ease-in-out;
+
+        &:hover {
+            opacity: .7;
+        }
     }
 
     a {
@@ -62,7 +68,8 @@ footer {
 
     @media (max-width: $mobile-bp) {
         padding: 2.4rem;
-        font-size: 1rem;
+        font-size: 1.2rem;
+        line-height: 2.5;
 
         .logo {
             margin-bottom: 2.3rem;

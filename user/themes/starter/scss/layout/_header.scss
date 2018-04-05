@@ -4,6 +4,7 @@ header {
     padding: 6rem 0 0;
     background-color: #f6f6f6;
     border-top: 4px solid $main-color;
+    overflow: hidden;
 
     .container {
         position: relative;
@@ -11,8 +12,8 @@ header {
 
     h1 {
         position: relative;
-        padding-top: 12.8rem;
-        padding-bottom: 27rem;
+        padding-top: 10rem;
+        padding-bottom: 30rem;
         z-index: 2;
     }
 
@@ -22,6 +23,7 @@ header {
     }
 
     @media (max-width: $tablet-bp) {
+        overflow: visible;
 
         h1 {
             padding-top: 3.2rem;
@@ -51,19 +53,37 @@ header {
     display: flex;
     align-items: center;
     position: absolute;
-    right: 0;
+    right: -20%;
     bottom: 0;
     margin: auto;
-    max-width: 50vw;
+    max-width: 830px;
     z-index: 0;
+
+
+    @media (max-width: $desktop-width) {
+        top: 0;
+        max-width: 50vw;
+    }
+
+    @media (max-width: $desktop-width) {
+        right: 0;
+    }
 
     @media (max-width: $tablet-bp) {
         position: relative;
-        margin-bottom: -15rem;
+        margin-bottom: -10rem;
         max-width: 100%;
+
+        img {
+            margin-bottom: -5rem;
+        }
     }
 
     @media (max-width: $mobile-bp) {
         margin-bottom: -5rem;
+
+        img {
+            margin-bottom: 0;
+        }
     }
 }

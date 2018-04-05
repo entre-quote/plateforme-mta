@@ -23,11 +23,11 @@ ul {
 }
 
 li {
-    // display: flex;
 
     &:before {
         content: "\00b7";
         margin-right: 3rem;
+        font-weight: bold;
 
         @media (max-width: $mobile-bp) {
             margin-right: 2rem;

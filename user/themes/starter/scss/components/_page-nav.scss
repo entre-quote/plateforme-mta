@@ -6,7 +6,7 @@
 
     nav {
         padding: 1.4rem 3.2rem 3.2rem;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         font-weight: 300;
     }
 
@@ -30,7 +30,7 @@
     & > div {
         margin-left: -3.2rem;
         background-color: $main-color;
-        box-shadow: 0 4px 20px 0 rgba(0, 0, 102, 0.48);
+        box-shadow: 0 8px 16px 0 rgba(0,0,102,0.30);
 
         @media (max-width: $tablet-bp) {
             margin-left: 0;
@@ -71,9 +71,23 @@
     }
 
     a {
-        display: block;
-        line-height: 3.1;
+        display: flex;
+        align-items: flex-start;
         text-decoration: none;
+
+        &:not(:last-child) {
+            padding-bottom: 2rem;
+        }
+
+        &:before {
+            content: '';
+            display: block;
+            margin-top: 7px;
+            width: 8px;
+            height: 8px;
+            margin-right: 8px;
+            background: url(../images/icons/ico-chevron-white.svg) 0 0 no-repeat;
+        }
 
         &:hover {
             text-decoration: underline;
@@ -86,7 +100,7 @@
 
     span {
         display: inline-block;
-        line-height: 1.2;
+        line-height: 1.4;
     }
 
     button {

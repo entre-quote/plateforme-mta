@@ -33,7 +33,7 @@ button {
     span {
         line-height: 1;
 
-        @media (max-width: $tablet-bp) {
+        @media (max-width: $mobile-bp) {
             display: none;
         }
     }
@@ -77,18 +77,15 @@ button {
         width: 2.4rem;
         height: 2.4rem;
         background: url(../images/icons/Menu.svg) center center no-repeat;
+        background-size: 2.4rem;
     }
 
-    @media (max-width: $tablet-bp) {
-        width: 3.2rem;
-        height: 3.2rem;
-
-        span {
-            &,
-            &:before,
-            &:after {
-                width: 3.2rem;
-            }
-        }
-    }
+    // @media (max-width: $tablet-bp) {
+    //     width: 3.2rem;
+    //     height: 3.2rem;
+    //
+    //     &:after {
+    //         background-size: 3.2rem;
+    //     }
+    // }
 }
