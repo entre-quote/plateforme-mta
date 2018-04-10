@@ -43,19 +43,44 @@
 .security {
 
     a {
-        display: flex;
-        align-items: center;
+        display: inline-block;
+        // align-items: center;
         font-weight: 400;
         color: $main-color;
         text-decoration: none;
 
         &:before {
             content: '';
-            display: block;
+            display: inline-block;
             width: 8px;
             height: 8px;
             margin-right: 8px;
             background: url(../images/icons/ico-chevron.svg) 0 0 no-repeat;
+            vertical-align: middle;
+        }
+
+        &:after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 1px;
+            margin-left: 1.6rem;
+            background-color: $main-color;
+            transition: width 0.3s ease-in-out;
+        }
+
+        &:hover {
+            &:after {
+                width: calc(100% - 1.6rem);
+            }
+        }
+
+        @media (max-width: $mobile-bp) {
+            display: block;
+
+            &:before {
+                display: inline-block;
+            }
         }
     }
 }
@@ -91,6 +116,12 @@
 
         span {
             font-weight: 500;
+        }
+    }
+
+    a {
+        &:after {
+            background-color: #fff;
         }
     }
 }
@@ -231,6 +262,12 @@
     a {
         color: $main-color;
         text-decoration: none;
+
+        &:hover {
+            span:after {
+                width: calc(100% - 1.6rem);
+            }
+        }
     }
 
     img {
@@ -248,20 +285,30 @@
     }
 
     span {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        display: inline-block;
+        // align-items: center;
+        // justify-content: center;
         font-weight: 400;
+        vertical-align: middle;
 
         &:before {
             content: '';
-            display: block;
+            display: inline-block;
             width: 8px;
             height: 8px;
             margin-right: 8px;
             background: url(../images/icons/ico-chevron.svg) 0 0 no-repeat;
         }
 
+        &:after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 1px;
+            margin-left: 1.6rem;
+            background-color: $main-color;
+            transition: width 0.3s ease-in-out;
+        }
     }
 
     @media (max-width: $mobile-bp) {

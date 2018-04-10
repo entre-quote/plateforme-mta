@@ -579,6 +579,9 @@ body {
   height: 8px;
   margin-right: 8px;
   background: url(../images/icons/ico-chevron.svg) 0 0 no-repeat; }
+  @media (max-width: 630px) {
+    .with-arrow:before {
+      display: inline-block; } }
 
 /* --- Layout --- */
 .container {
@@ -1024,6 +1027,9 @@ a {
   display: inline-flex;
   align-items: center;
   color: #000066; }
+  @media (max-width: 630px) {
+    .article-content a {
+      display: block; } }
 .article-content img {
   display: block;
   max-width: 100%;
@@ -1293,6 +1299,22 @@ figure {
 .contact strong {
   font-weight: 400;
   color: #000066; }
+@media (max-width: 630px) {
+  .contact .page {
+    display: flex; }
+  .contact .page-section {
+    order: 1; }
+  .contact aside {
+    order: 2; }
+  .contact .page-article:last-of-type {
+    margin-bottom: 0; }
+  .contact table {
+    margin-bottom: 3.2rem; }
+    .contact table:not(:first-of-type) tr {
+      display: block; }
+    .contact table:not(:first-of-type) td:first-of-type {
+      display: block;
+      width: 100%; } }
 
 .home header {
   overflow: visible; }
@@ -1322,8 +1344,7 @@ figure {
 .header-content a,
 .specialty a,
 .security a {
-  display: flex;
-  align-items: center;
+  display: inline-block;
   font-weight: 400;
   color: #000066;
   text-decoration: none; }
@@ -1331,11 +1352,35 @@ figure {
   .specialty a:before,
   .security a:before {
     content: '';
-    display: block;
+    display: inline-block;
     width: 8px;
     height: 8px;
     margin-right: 8px;
-    background: url(../images/icons/ico-chevron.svg) 0 0 no-repeat; }
+    background: url(../images/icons/ico-chevron.svg) 0 0 no-repeat;
+    vertical-align: middle; }
+  .header-content a:after,
+  .specialty a:after,
+  .security a:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    margin-left: 1.6rem;
+    background-color: #000066;
+    transition: width 0.3s ease-in-out; }
+  .header-content a:hover:after,
+  .specialty a:hover:after,
+  .security a:hover:after {
+    width: calc(100% - 1.6rem); }
+  @media (max-width: 630px) {
+    .header-content a,
+    .specialty a,
+    .security a {
+      display: block; }
+      .header-content a:before,
+      .specialty a:before,
+      .security a:before {
+        display: inline-block; } }
 
 .specialty h2,
 .security h2 {
@@ -1363,6 +1408,9 @@ figure {
   .specialty h2 span,
   .security h2 span {
     font-weight: 500; }
+.specialty a:after,
+.security a:after {
+  background-color: #fff; }
 
 .specialty {
   margin-top: 20rem;
@@ -1451,6 +1499,8 @@ figure {
   .read-more a {
     color: #000066;
     text-decoration: none; }
+    .read-more a:hover span:after {
+      width: calc(100% - 1.6rem); }
   .read-more img {
     max-width: 15.2rem;
     margin: 0 auto; }
@@ -1461,17 +1511,24 @@ figure {
     margin: 0;
     font-weight: 600; }
   .read-more span {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 400; }
+    display: inline-block;
+    font-weight: 400;
+    vertical-align: middle; }
     .read-more span:before {
       content: '';
-      display: block;
+      display: inline-block;
       width: 8px;
       height: 8px;
       margin-right: 8px;
       background: url(../images/icons/ico-chevron.svg) 0 0 no-repeat; }
+    .read-more span:after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 1px;
+      margin-left: 1.6rem;
+      background-color: #000066;
+      transition: width 0.3s ease-in-out; }
   @media (max-width: 630px) {
     .read-more {
       margin-bottom: 5rem; }

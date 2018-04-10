@@ -121,14 +121,9 @@
         align-items: center;
         color: $main-color;
 
-        // &:before {
-        //     content: '';
-        //     display: block;
-        //     width: 8px;
-        //     height: 8px;
-        //     margin-right: 8px;
-        //     background: url(../images/icons/ico-chevron.svg) 0 0 no-repeat;
-        // }
+        @media (max-width: $mobile-bp) {
+            display: block;
+        }
     }
 
     img {

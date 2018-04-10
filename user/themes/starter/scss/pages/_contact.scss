@@ -35,4 +35,39 @@
         font-weight: 400;
         color: $main-color;
     }
+
+    @media (max-width: $mobile-bp) {
+        .page {
+            display: flex;
+        }
+        .page-section {
+            order: 1;
+        }
+        aside {
+            order: 2;
+        }
+
+        .page-article:last-of-type {
+            margin-bottom: 0;
+        }
+
+        table {
+            margin-bottom: 3.2rem;
+
+            &:not(:first-of-type) {
+
+                tr {
+                    display: block;
+                }
+
+                td {
+
+                    &:first-of-type {
+                        display: block;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
 }
