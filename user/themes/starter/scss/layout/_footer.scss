@@ -51,6 +51,24 @@ footer {
             margin-right: 8px;
             background-color: #fff;
         }
+
+        span {
+
+            &:after {
+                content: '';
+                display: block;
+                width: 0;
+                height: 1px;
+                background-color: #fff;
+                transition: width 0.2s ease-in-out;
+            }
+        }
+
+        &:hover {
+            span:after {
+                width: 100%;
+            }
+        }
     }
 
     @media (max-width: $tablet-bp) {
