@@ -87,6 +87,7 @@
 
 .specialty,
 .security {
+    margin-bottom: 12rem;
 
     h2 {
         position: relative;
@@ -128,7 +129,6 @@
 
 .specialty {
     margin-top: 20rem;
-    margin-bottom: 12rem;
     display: flex;
 
     & > div:first-of-type {
@@ -177,7 +177,8 @@
 .security {
     position: relative;
     max-width: 72.8rem;
-    margin: 0 auto 10rem;
+    margin-right: auto;
+    margin-left: auto;
 
     & > div {
         position: relative;
@@ -243,6 +244,13 @@
         }
     }
 
+    @media (max-width: $tablet-bp) {
+        h2 span {
+            display: block;
+            margin-left: 4.3rem;
+        }
+    }
+
     @media (max-width: $mobile-bp) {
         margin-bottom: 5rem;
     }
@@ -286,8 +294,6 @@
 
     span {
         display: inline-block;
-        // align-items: center;
-        // justify-content: center;
         font-weight: 400;
         vertical-align: middle;
 
@@ -311,7 +317,7 @@
         }
     }
 
-    @media (max-width: $mobile-bp) {
+    @media (max-width: 575px) {
         margin-bottom: 5rem;
 
         & > div {

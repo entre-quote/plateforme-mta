@@ -40,11 +40,18 @@
         .page {
             display: flex;
         }
+
         .page-section {
             order: 1;
         }
+
+        .article-content {
+            padding-bottom: 0;
+        }
+
         aside {
             order: 2;
+            margin-bottom: 6.4rem;
         }
 
         .page-article:last-of-type {

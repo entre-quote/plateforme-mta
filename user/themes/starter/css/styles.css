@@ -732,14 +732,10 @@ footer {
   padding: 1.5rem 0;
   text-align: center;
   background-color: #fff; }
-  .bottom-bar a:not(:first-child):before {
-    content: '|';
-    margin-right: 1rem;
-    margin-left: 1rem;
-    color: #000066; }
   @media (max-width: 768px) {
     .bottom-bar {
-      font-size: 2rem; } }
+      font-size: 2rem;
+      padding-bottom: 2rem; } }
   @media (max-width: 630px) {
     .bottom-bar {
       font-size: 1.2rem; } }
@@ -759,7 +755,7 @@ footer {
   width: 100%;
   background-color: #000066;
   z-index: 3;
-  transition: left 0.4s ease-in-out; }
+  transition: left 0.3s ease-in-out; }
   .main-nav.active {
     left: 0; }
   .main-nav .container {
@@ -797,7 +793,8 @@ footer {
     .main-nav nav {
       margin-top: 4.8rem; }
       .main-nav nav a {
-        font-size: 2.8rem; }
+        font-size: 2.8rem;
+        font-weight: 200; }
         .main-nav nav a:before {
           margin-right: 3.2rem; }
         .main-nav nav a:first-child {
@@ -1313,8 +1310,11 @@ figure {
     display: flex; }
   .contact .page-section {
     order: 1; }
+  .contact .article-content {
+    padding-bottom: 0; }
   .contact aside {
-    order: 2; }
+    order: 2;
+    margin-bottom: 6.4rem; }
   .contact .page-article:last-of-type {
     margin-bottom: 0; }
   .contact table {
@@ -1391,39 +1391,41 @@ figure {
       .security a:before {
         display: inline-block; } }
 
-.specialty h2,
-.security h2 {
-  position: relative;
-  margin-bottom: 2rem;
-  padding-bottom: 2rem;
-  font-size: 2rem;
-  font-weight: 200; }
-  .specialty h2:before, .specialty h2:after,
-  .security h2:before,
-  .security h2:after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    display: block;
-    height: 1px; }
-  .specialty h2:before,
-  .security h2:before {
-    left: -1.5rem;
-    width: 10rem; }
-  .specialty h2:after,
-  .security h2:after {
-    left: 9.5rem;
-    width: 1rem; }
-  .specialty h2 span,
-  .security h2 span {
-    font-weight: 500; }
-.specialty a:after,
-.security a:after {
-  background-color: #fff; }
+.specialty,
+.security {
+  margin-bottom: 12rem; }
+  .specialty h2,
+  .security h2 {
+    position: relative;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 200; }
+    .specialty h2:before, .specialty h2:after,
+    .security h2:before,
+    .security h2:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      display: block;
+      height: 1px; }
+    .specialty h2:before,
+    .security h2:before {
+      left: -1.5rem;
+      width: 10rem; }
+    .specialty h2:after,
+    .security h2:after {
+      left: 9.5rem;
+      width: 1rem; }
+    .specialty h2 span,
+    .security h2 span {
+      font-weight: 500; }
+  .specialty a:after,
+  .security a:after {
+    background-color: #fff; }
 
 .specialty {
   margin-top: 20rem;
-  margin-bottom: 12rem;
   display: flex; }
   .specialty > div:first-of-type {
     width: calc(100% / 2 - 0.01px);
@@ -1453,7 +1455,8 @@ figure {
 .security {
   position: relative;
   max-width: 72.8rem;
-  margin: 0 auto 10rem; }
+  margin-right: auto;
+  margin-left: auto; }
   .security > div {
     position: relative;
     padding: 3.2rem;
@@ -1495,6 +1498,10 @@ figure {
     @media (max-width: 768px) {
       .security hr {
         display: none; } }
+  @media (max-width: 768px) {
+    .security h2 span {
+      display: block;
+      margin-left: 4.3rem; } }
   @media (max-width: 630px) {
     .security {
       margin-bottom: 5rem; } }
@@ -1538,7 +1545,7 @@ figure {
       margin-left: 1.6rem;
       background-color: #000066;
       transition: width 0.3s ease-in-out; }
-  @media (max-width: 630px) {
+  @media (max-width: 575px) {
     .read-more {
       margin-bottom: 5rem; }
       .read-more > div:last-child {

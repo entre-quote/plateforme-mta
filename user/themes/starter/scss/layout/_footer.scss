@@ -112,18 +112,9 @@ footer {
     text-align: center;
     background-color: #fff;
 
-    a {
-
-        &:not(:first-child):before {
-            content: '|';
-            margin-right: 1rem;
-            margin-left: 1rem;
-            color: $main-color;
-        }
-    }
-
     @media (max-width: $tablet-bp) {
         font-size: 2rem;
+        padding-bottom: 2rem;
     }
 
     @media (max-width: $mobile-bp) {
