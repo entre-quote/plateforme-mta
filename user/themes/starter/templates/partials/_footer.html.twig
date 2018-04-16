@@ -28,8 +28,63 @@
 
     <section class="bottom-bar">
         <nav>
-            <a href="{{base_url}}/mentions-legales-et-credits">Mentions légales & crédits</a>
+            <button id="open-credits"><span>Mentions légales & crédits</span><button>
         </nav>
+
+        <div class="credits">
+            <div class="container">
+                <div class="top-content">
+                    {% include 'partials/_logo-white.html.twig' %}
+
+                    <button id="close-credits">
+                        <span>Fermer les mentions légales</span>
+                        <div></div>
+                    </button>
+                </div>
+
+                <div class="grid-2">
+                    <div>
+                        <h2>Mentions légales</h2>
+                    </div>
+                    <div>
+                        <h3>Éditeur</h3>
+                        <p>MTA plateforme d’essais<br>
+                            28, route du XXIème Siècle<br>
+                            86360 Chasseneuil-du-Poitou<br>
+                            Tél. : +33 (0)5 49 49 77 10<br>
+                            Courriel : <a href="mailto:contact@plateforme-mta.com">contact@plateforme-mta.com</a>
+                        </p>
+
+                        <h3>Directeur de la publication</h3>
+                        <p>Quentin Badey, Directeur Général</p>
+
+                        <h3>Hébergeur</h3>
+                        <p>SOS DATA<br>
+                            22 rue de Bignoux<br>
+                            86000 Poitiers<br>
+                            Tél. : 09 74 76 15 57<br>
+                            Fax. : 05 49 41 04 77<br>
+                            Courriel : <a href="mailto:contact@sos-data.fr">contact@sos-data.fr</a><br>
+                            Site : <a href="http://www.sos-data.fr">www.sos-data.fr</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="grid-2">
+                    <div>
+                        <h2>Crédits</h2>
+                    </div>
+                    <div>
+                        <h3>Conception & intégration :</h3>
+                        <p>Erick Gardin - <a href="http://entre-quote.com">entre-quote.com</a></p>
+
+                        <h3>Design</h3>
+                        <p>Aymeric Faivre - <a href="http://aymericfaivre.com">aymericfaivre.com</a></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </section>
 </footer>
 

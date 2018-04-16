@@ -36,7 +36,7 @@
         color: $main-color;
     }
 
-    @media (max-width: $mobile-bp) {
+    @media (max-width: $tablet-bp) {
         .page {
             display: flex;
         }

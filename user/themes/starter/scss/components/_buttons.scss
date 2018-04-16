@@ -8,6 +8,7 @@ button {
     font-weight: 300;
     background: none;
     border: none;
+    cursor: pointer;
 
     @media (max-width: $tablet-bp) {
         font-size: 2rem;
@@ -24,7 +25,8 @@ button {
     }
 }
 
-#close-nav {
+#close-nav,
+#close-credits {
     display: flex;
     align-items: center;
     color: #fff;

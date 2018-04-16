@@ -14,3 +14,16 @@ btnClose.onclick = function() {
 navLink.onclick = function() {
   nav.classList.toggle('active');
 }
+
+
+var creditsOpen = document.querySelector('#open-credits');
+var creditsClose = document.querySelector('#close-credits');
+var credits = document.querySelector('.credits');
+
+creditsOpen.onclick = function() {
+  credits.classList.toggle('active');
+}
+
+creditsClose.onclick = function() {
+  credits.classList.toggle('active');
+}

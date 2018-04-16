@@ -32,8 +32,6 @@ nav {
         display: flex;
         flex-direction: column;
         height: 100%;
-        // padding-right: 6.4rem;
-        // padding-left: 6.4rem;
     }
 
     .top-content {
@@ -69,6 +67,24 @@ nav {
 
             &:first-child {
                 margin-top: -8rem;
+            }
+
+            &:hover {
+                span:after {
+                    width: 100%;
+                }
+            }
+        }
+
+        span {
+
+            &:after {
+                content: '';
+                display: block;
+                width: 0;
+                height: 1px;
+                background-color: #fff;
+                transition: width 0.2s ease-in-out;
             }
         }
     }

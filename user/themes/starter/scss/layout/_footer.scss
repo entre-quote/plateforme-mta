@@ -120,4 +120,26 @@ footer {
     @media (max-width: $mobile-bp) {
         font-size: 1.2rem;
     }
+
+    button {
+        display: inline-block;
+
+        span {
+            &:after {
+                content: '';
+                display: block;
+                width: 0;
+                height: 1px;
+                background-color: $default-color;
+                transition: width 0.2s ease-in-out;
+            }
+
+        }
+
+        &:hover {
+            span:after {
+                width: 100%;
+            }
+        }
+    }
 }

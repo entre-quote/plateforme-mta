@@ -16,7 +16,7 @@
 
         nav {
             margin-left: 0;
-            padding-bottom: 0;
+            padding: 0 3.2rem;
 
             a:last-of-type {
                 margin-bottom: 3.2rem;
@@ -82,7 +82,7 @@
         &:before {
             content: '';
             display: block;
-            margin-top: 7px;
+            margin-top: 6px;
             width: 8px;
             height: 8px;
             margin-right: 8px;
@@ -90,7 +90,9 @@
         }
 
         &:hover {
-            text-decoration: underline;
+            span:after {
+                width: 100%;
+            }
         }
 
         &:first-of-type {
@@ -101,6 +103,15 @@
     span {
         display: inline-block;
         line-height: 1.4;
+
+        &:after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 1px;
+            background-color: #fff;
+            transition: width 0.2s ease-in-out;
+        }
     }
 
     button {
@@ -117,6 +128,7 @@
             content: '' !important;
             position: relative;
             display: block;
+            margin-top: -5px;
             height: 1rem !important;
             width: 1rem !important;
             background-color: transparent;

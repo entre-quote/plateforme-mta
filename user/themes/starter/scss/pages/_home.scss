@@ -44,10 +44,10 @@
 
     a {
         display: inline-block;
-        // align-items: center;
         font-weight: 400;
         color: $main-color;
         text-decoration: none;
+        line-height: 1;
 
         &:before {
             content: '';
@@ -56,7 +56,7 @@
             height: 8px;
             margin-right: 8px;
             background: url(../images/icons/ico-chevron.svg) 0 0 no-repeat;
-            vertical-align: middle;
+            vertical-align: 1px;
         }
 
         &:after {
@@ -244,15 +244,13 @@
         }
     }
 
-    @media (max-width: $tablet-bp) {
+    @media (max-width: $mobile-bp) {
+        margin-bottom: 5rem;
+
         h2 span {
             display: block;
             margin-left: 4.3rem;
         }
-    }
-
-    @media (max-width: $mobile-bp) {
-        margin-bottom: 5rem;
     }
 }
 
@@ -295,7 +293,8 @@
     span {
         display: inline-block;
         font-weight: 400;
-        vertical-align: middle;
+        line-height: 1;
+        vertical-align: 1px;
 
         &:before {
             content: '';
@@ -316,9 +315,12 @@
             transition: width 0.3s ease-in-out;
         }
     }
+    @media (max-width: $tablet-bp) {
+
+            margin-bottom: 5rem;
+    }
 
     @media (max-width: 575px) {
-        margin-bottom: 5rem;
 
         & > div {
             &:last-child {
