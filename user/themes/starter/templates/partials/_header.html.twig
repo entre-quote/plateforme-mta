@@ -10,7 +10,7 @@
             {% include 'partials/_logo.html.twig' %}
 
             <button id="open-nav">
-                <span>Navigation</span>
+                <span>{{'NAV'|t}}</span>
                 <div class="hamburger">
                 </div>
             </button>
@@ -20,10 +20,7 @@
             {% include 'partials/_navigation.html.twig' %}
         {% endblock %}
 
-        <nav class="lang-nav">
-            <a href="#">Français</a>
-            <a href="#">English</a>
-        </nav>
+        {% include 'partials/language-selector.html.twig' %}
 
         {% if page.slug == 'home' %}
             <div class="header-content">

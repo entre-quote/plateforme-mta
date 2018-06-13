@@ -28,7 +28,7 @@ body_classes: home
             Les SSE sont des systèmes complexes et divers dont nous avons l’expertise et pour lesquels nous vous apportons notre expérience en matière d’essais.
          </p>
 
-        <a href="/SSE">En savoir plus sur les SSE</a>
+        <a href="/systemes-de-stockage-denergie-electrique">En savoir plus sur les SSE</a>
     </div>
 </div>
 
@@ -53,7 +53,7 @@ body_classes: home
     <div>
         <a href="/contact">
         	<img src="Home_Contact.svg" alt="" />
-            <h3>Vous avez un projet?</h3>
+            <h3>Vous avez un projet ?</h3>
             <span>Contactez-nous</span>
         </a>
     </div>

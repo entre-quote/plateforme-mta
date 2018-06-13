@@ -1,6 +1,6 @@
 ---
 title: Historique
-media_order: societe-1.svg
+media_order: 'societe-1.svg,Chronologie_EN.svg'
 image_align: left
 ---
 

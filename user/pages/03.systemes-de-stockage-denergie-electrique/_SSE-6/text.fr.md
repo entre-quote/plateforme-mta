@@ -38,6 +38,6 @@ Le matériel proposé pour les essais SSE est le suivant :
 ![](20170427_143417.jpg?728,456&classes=caption  "Essai SSE pack avec conditionnement d’air")
 ![](IMG_20180215_113932.jpg?728,456&classes=caption  "Essai pack avec setup HIL")
 ![](IMG_20180215_114101.jpg?728,456&classes=caption  "Enceintes essais calendaires")
-![](IMG_20180215_114324.jpg?728,456&classes=caption  "Enceinte SSE 4m")
+![](IMG_20180215_114324.jpg?728,456&classes=caption  "Enceinte SSE 4m&sup3;")
 ![](IMG_20180215_114720.jpg?728,456&classes=caption  "Batterie NiCd 28V aéronautique")
 [/owl-carousel]

@@ -1,12 +1,16 @@
 {% block footer %}
 <footer class="footer">
 
+
+
     <section class="footer-content container">
         <a class="logo no-before" href="{{ base_url == '' ? '/' : base_url }}">
             <img src="{{ url('theme://images/logo-mta-white.svg') }}" alt="Plateforme MTA">
         </a>
 
         <nav class="grid-2-small-1">
+
+            {% if grav.language.getActive == 'fr' %}
             <div>
                 <a href="{{base_url}}/"><span>Accueil</span></a>
                 <a href="{{base_url}}/prestations-et-demarche"><span>Prestations et démarche</span></a>
@@ -18,6 +22,19 @@
                 <a href="{{base_url}}/societe"><span>Société</span></a>
                 <a href="{{base_url}}/contact"><span>Contact</span></a>
             </div>
+            {% else %}
+            <div>
+                <a href="{{base_url}}/"><span>Home</span></a>
+                <a href="{{base_url}}/customer-approach-and-services"><span>Customer approach & services</span></a>
+                <a href="{{base_url}}/energy-storage-systems"><span>ESS</span></a>
+            </div>
+
+            <div>
+                <a href="{{base_url}}/safety"><span>Safety</span></a>
+                <a href="{{base_url}}/company"><span>Company</span></a>
+                <a href="{{base_url}}/contact"><span>Contact</span></a>
+            </div>
+            {% endif %}
 
             <div class="linkedin">
                 <a href="https://fr.linkedin.com/company/mta-plateforme-d-essais" class="no-before"><img src="{{ url('theme://images/logo-linkedin.svg') }}" alt="Linkedin"></a>
@@ -28,7 +45,7 @@
 
     <section class="bottom-bar">
         <nav>
-            <button id="open-credits"><span>Mentions légales & crédits</span><button>
+            <button id="open-credits"><span>{{'LEGAL-CREDITS'|t}}</span><button>
         </nav>
 
         <div class="credits">
@@ -37,17 +54,17 @@
                     {% include 'partials/_logo-white.html.twig' %}
 
                     <button id="close-credits">
-                        <span>Fermer les mentions légales</span>
+                        <span>{{'LEGAL-CLOSE'|t}}</span>
                         <div></div>
                     </button>
                 </div>
 
                 <div class="grid-2">
                     <div>
-                        <h2>Mentions légales</h2>
+                        <h2>{{'LEGAL'|t}}</h2>
                     </div>
                     <div>
-                        <h3>Éditeur</h3>
+                        <h3>{{'PUBLISHER'|t}}</h3>
                         <p>MTA plateforme d’essais<br>
                             28, route du XXIème Siècle<br>
                             86360 Chasseneuil-du-Poitou<br>
@@ -55,10 +72,10 @@
                             Courriel : <a href="mailto:contact@plateforme-mta.com">contact@plateforme-mta.com</a>
                         </p>
 
-                        <h3>Directeur de la publication</h3>
+                        <h3>{{'PUBLISHER-HEAD'|t}}</h3>
                         <p>Quentin Badey, Directeur Général</p>
 
-                        <h3>Hébergeur</h3>
+                        <h3>{{'HOST'|t}}</h3>
                         <p>SOS DATA<br>
                             22 rue de Bignoux<br>
                             86000 Poitiers<br>
@@ -72,10 +89,10 @@
 
                 <div class="grid-2">
                     <div>
-                        <h2>Crédits</h2>
+                        <h2>{{'CREDITS'|t}}</h2>
                     </div>
                     <div>
-                        <h3>Conception & intégration :</h3>
+                        <h3>{{'INTEGRATION'|t}}</h3>
                         <p>Erick Gardin - <a href="http://entre-quote.com">entre-quote.com</a></p>
 
                         <h3>Design</h3>
